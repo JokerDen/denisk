@@ -1,0 +1,7 @@
+title: Denis Kazantsev
+description: Senior Unity/C# Developer and Game Technology Consultant
+url: https://jokerden.github.io
+baseurl: /denisk
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
