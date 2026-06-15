@@ -13,16 +13,17 @@ There is no custom domain configured.
 
 ## Run Locally
 
-Local preview is optional. If Jekyll is installed locally:
+Local preview is optional. Use Homebrew Ruby or another user-managed Ruby, not the macOS system Ruby.
 
 ```bash
-jekyll serve
+bundle install
+bundle exec jekyll serve
 ```
 
 Then visit:
 
 ```text
-http://localhost:4000
+http://localhost:4000/denisk/
 ```
 
 GitHub Pages will build the Markdown page through Jekyll after push.
