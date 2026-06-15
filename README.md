@@ -1,13 +1,15 @@
 # Denis Kazantsev GitHub Pages Site
 
-Simple GitHub Pages site for Denis Kazantsev, built with standard GitHub Pages Jekyll processing and Markdown content.
+Simple GitHub Pages site for Denis Kazantsev, built with standard GitHub Pages Jekyll processing.
 
-There is no custom HTML/CSS/JS visual layer and no custom domain configured.
+There is no custom domain configured.
 
 ## Project Structure
 
 - `index.md` - the page content in Markdown.
 - `_config.yml` - GitHub Pages / Jekyll configuration.
+- `_layouts/default.html` - one-column page layout.
+- `assets/css/site.css` - lightweight site styling.
 
 ## Run Locally
 
@@ -38,7 +40,7 @@ GitHub Pages will build the Markdown page through Jekyll after push.
 https://jokerden.github.io/denisk/
 ```
 
-The site uses standard GitHub Pages Jekyll processing with the `jekyll-theme-minimal` theme.
+The site uses standard GitHub Pages Jekyll processing from the repository root.
 
 ## Editing Guide
 

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="page">
+        <a class="site-title" href="{{ '/' | relative_url }}">Denis Kazantsev</a>
+        <nav aria-label="Main navigation">
+          <a href="#what-i-do">Services</a>
+          <a href="#how-i-work">Cooperation</a>
+          <a href="#indicative-rates">Rates</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page content">
+      {{ content }}
+    </main>
+
+    <footer class="page site-footer">
+      <p>Denis Kazantsev · Senior Unity/C# Developer · Netherlands</p>
+    </footer>
+  </body>
+</html>
