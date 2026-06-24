@@ -1,6 +1,6 @@
-# Denis Kazantsev GitHub Pages Site
+# DenisK Interactive GitHub Pages Site
 
-Simple GitHub Pages site for Denis Kazantsev, built with standard GitHub Pages Jekyll processing.
+Simple GitHub Pages site for DenisK Interactive, built with standard GitHub Pages Jekyll processing.
 
 There is no custom domain configured.
 
@@ -13,11 +13,10 @@ There is no custom domain configured.
 
 ## Run Locally
 
-Local preview is optional. Use Homebrew Ruby or another user-managed Ruby, not the macOS system Ruby.
+Local preview is optional. Use Homebrew Ruby or another user-managed Ruby, not the macOS system Ruby. Install Jekyll in that Ruby environment if it is not already available.
 
 ```bash
-bundle install
-bundle exec jekyll serve
+jekyll serve
 ```
 
 Then visit:
@@ -46,12 +45,11 @@ The site uses standard GitHub Pages Jekyll processing from the repository root.
 ## Editing Guide
 
 - Main page text: edit `index.md`.
-- Rates: edit the `Indicative Rates` section in `index.md`.
 - Email and LinkedIn: edit the `Contact` section in `index.md`.
 - Site title/description/theme: edit `_config.yml`.
 
 ## Notes
 
 - Keep the public page concise and B2B-focused.
-- Rates are written as indicative and excluding VAT where applicable.
+- Pricing is not published on the page.
 - No external tracking is included by default.

@@ -1,27 +1,18 @@
 ---
 layout: default
-title: Denis Kazantsev
-description: Senior Unity/C# developer based in the Netherlands, available for Unity development, prototyping, optimisation, tooling, and release support.
+title: DenisK Interactive
+description: Game development help for prototypes, production features, optimization, tooling, and release support.
 ---
 
 <section class="hero" id="top">
   <div class="section-inner">
-    <p class="eyebrow">Independent Unity/C# Developer · Netherlands</p>
-    <h1>Senior Unity/C# development for game and interactive media teams</h1>
-    <p class="lead">I help studios build, prototype, optimise, and release Unity-based products without hiring a full-time senior engineer.</p>
-    <p class="contact-line"><a href="mailto:denis.kazantsev.work@gmail.com">denis.kazantsev.work@gmail.com</a></p>
-  </div>
-</section>
-
-<section id="what-i-do">
-  <div class="section-inner">
-    <p class="eyebrow">Services</p>
-    <h2>What I Do</h2>
-    <ul>
-      <li>Unity/C# gameplay, UI, tools, integrations, and production features</li>
-      <li>Prototypes, technical foundations, and vertical slices</li>
-      <li>Profiling, optimisation, technical review, and implementation support</li>
-      <li>Editor tooling, automation, build workflows, and release support</li>
+    <p class="eyebrow">Game Development Help · Netherlands</p>
+    <h1>Build, improve, and ship your game with focused development support</h1>
+    <p class="lead">DenisK Interactive helps teams turn ideas, prototypes, and live game problems into working player-facing results.</p>
+    <ul class="hero-list">
+      <li>Gameplay systems, UI, tools, integrations, and production features</li>
+      <li>Playable prototypes, technical foundations, and vertical slices</li>
+      <li>Performance review, bug fixing, build workflows, and release support</li>
     </ul>
   </div>
 </section>
@@ -30,10 +21,12 @@ description: Senior Unity/C# developer based in the Netherlands, available for U
   <div class="section-inner">
     <p class="eyebrow">Cooperation</p>
     <h2>How I Work</h2>
+    <p class="section-lead">Pick the shape that matches the project: quick diagnosis, focused delivery, ongoing development capacity, or a larger agreement with separate tasks.</p>
     <ul>
-      <li>Short technical audit or focused sprint</li>
-      <li>Project-based development with clear deliverables</li>
-      <li>Monthly retainer for predictable senior Unity/C# capacity</li>
+      <li>Short technical audit to identify blockers, risks, and next steps</li>
+      <li>Focused sprint for a prototype, feature, tool, optimization pass, or release issue</li>
+      <li>Project-based development with clear deliverables and milestones</li>
+      <li>Monthly retainer for predictable development capacity</li>
       <li>Framework agreement with separate tasks or statements of work</li>
     </ul>
   </div>
@@ -42,7 +35,8 @@ description: Senior Unity/C# developer based in the Netherlands, available for U
 <section id="relevant-experience">
   <div class="section-inner">
     <p class="eyebrow">Experience</p>
-    <h2>Relevant Experience</h2>
+    <h2>Relevant Experience and Who I Am</h2>
+    <p class="section-lead">I am Denis, an independent game developer based in the Netherlands. I work hands-on with teams that need practical engineering, clear delivery, and production-minded technical decisions.</p>
     <ul>
       <li>Commercial mobile game development for iOS and Android</li>
       <li>Gameplay systems, rapid prototyping, and production support</li>
@@ -52,28 +46,12 @@ description: Senior Unity/C# developer based in the Netherlands, available for U
   </div>
 </section>
 
-<section id="indicative-rates">
-  <div class="section-inner">
-    <p class="eyebrow">Rates</p>
-    <h2>Indicative Rates</h2>
-    <p>Rates depend on scope, duration, urgency, technical complexity, and cooperation model. All rates are excluding VAT where applicable.</p>
-    <ul>
-      <li>Hourly development / consulting: <strong>€50 per hour</strong></li>
-      <li>Day rate: <strong>€400 per day</strong></li>
-      <li>Technical audit: <strong>from €750</strong></li>
-      <li>Short sprint: <strong>from €1,500</strong></li>
-      <li>Monthly retainer: <strong>from €1,500 per month</strong></li>
-      <li>Project or framework agreement: <strong>by scope</strong></li>
-    </ul>
-  </div>
-</section>
-
 <section class="contact" id="contact">
   <div class="section-inner">
     <p class="eyebrow">Contact</p>
-    <h2>Let’s Discuss Your Project</h2>
+    <h2>Ready to Move Your Game Forward?</h2>
     <p>Send a short project description, timeline, current technical needs, and preferred cooperation model.</p>
-
+    <p><a class="cta-link" href="mailto:denis.kazantsev.work@gmail.com">Start the conversation</a></p>
     <p>Email: <a href="mailto:denis.kazantsev.work@gmail.com">denis.kazantsev.work@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/denis-kazantsev-27487178">linkedin.com/in/denis-kazantsev-27487178</a></p>
     <p>Location: Netherlands</p>
