@@ -75,7 +75,7 @@ a:focus-visible {
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
+  gap: 14px 18px;
   font-size: 16px;
   font-weight: 650;
 }
@@ -203,9 +203,48 @@ li::marker {
   margin-top: 34px;
 }
 
+.expertise-list {
+  display: grid;
+  gap: 22px;
+  padding-left: 0;
+  list-style: none;
+  font-size: clamp(18px, 1.6vw, 22px);
+  line-height: 1.5;
+}
+
+.expertise-list li {
+  margin: 0;
+  padding-left: 0;
+}
+
+.expertise-list strong,
+.expertise-list span {
+  display: block;
+}
+
+.expertise-list strong {
+  margin-bottom: 4px;
+  font-size: 1.08em;
+}
+
 strong {
   color: var(--ink);
   font-weight: 750;
+}
+
+.note-line,
+.supporting-copy {
+  max-width: 780px;
+  color: var(--muted);
+  font-size: clamp(20px, 2vw, 26px);
+}
+
+.supporting-copy {
+  margin-top: 24px;
+}
+
+.supporting-copy + .supporting-copy {
+  margin-top: 0;
 }
 
 .contact p {
