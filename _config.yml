@@ -1,6 +1,6 @@
 title: DenisK Interactive
 description: Game development help for prototypes, production features, optimization, tooling, and release support.
-url: https://jokerden.github.io
-baseurl: /denisk
+url: https://desnik.io
+baseurl: ""
 plugins:
   - jekyll-seo-tag
