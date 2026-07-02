@@ -52,7 +52,7 @@ description: Senior Unity development for teams building, releasing, and support
   <div class="section-inner">
     <h2>Background</h2>
     <p class="section-lead">15+ years in commercial game development, with a focus on Unity production, mobile F2P games, LiveOps, releases, and cross-platform delivery.</p>
-    <p class="note-line">Companies &amp; Projects &ndash; TBD</p>
+    <p class="note-line">Companies &amp; projects: check my <a href="https://www.linkedin.com/in/denis-kazantsev-27487178">LinkedIn profile</a>.</p>
   </div>
 </section>
 
@@ -77,6 +77,5 @@ description: Senior Unity development for teams building, releasing, and support
     <p>Send a short message to discuss the project, role, scope, availability, and pricing.</p>
     <p><a class="cta-link" href="mailto:denis.kazantsev.work@gmail.com">Start the conversation</a></p>
     <p>Email: <a href="mailto:denis.kazantsev.work@gmail.com">denis.kazantsev.work@gmail.com</a></p>
-    <p><a href="https://www.linkedin.com/in/denis-kazantsev-27487178">LinkedIn Profile</a></p>
   </div>
 </section>

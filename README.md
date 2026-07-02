@@ -45,7 +45,8 @@ The site uses standard GitHub Pages Jekyll processing from the repository root.
 ## Editing Guide
 
 - Main page text: edit `index.md`.
-- Email and LinkedIn: edit the `Contact` section in `index.md`.
+- Email: edit the `Contact` section in `index.md`.
+- LinkedIn profile link: edit the `Background` section in `index.md`.
 - Site title/description/theme: edit `_config.yml`.
 
 ## Notes
