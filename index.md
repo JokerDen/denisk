@@ -48,14 +48,6 @@ description: Senior Unity development for teams building, releasing, and support
   </div>
 </section>
 
-<section id="background">
-  <div class="section-inner">
-    <h2>Background</h2>
-    <p class="section-lead">15+ years in commercial game development, with a focus on Unity production, mobile F2P games, LiveOps, releases, and cross-platform delivery.</p>
-    <p class="note-line">Companies &amp; projects: check my <a href="https://www.linkedin.com/in/denis-kazantsev-27487178">LinkedIn profile</a>.</p>
-  </div>
-</section>
-
 <section id="work-options">
   <div class="section-inner">
     <h2>Work Options</h2>
@@ -68,6 +60,14 @@ description: Senior Unity development for teams building, releasing, and support
     </ul>
     <p class="supporting-copy">Netherlands-based, available for European and international cooperation.</p>
     <p class="supporting-copy">Rates and availability depend on scope, involvement, duration, and responsibility level.</p>
+  </div>
+</section>
+
+<section id="background">
+  <div class="section-inner">
+    <h2>Background</h2>
+    <p class="section-lead">15+ years in commercial game development, with a focus on Unity production, mobile F2P games, LiveOps, releases, and cross-platform delivery.</p>
+    <p class="note-line">Companies &amp; projects: check my <a href="https://www.linkedin.com/in/denis-kazantsev-27487178">LinkedIn profile</a>.</p>
   </div>
 </section>
 
