@@ -57,8 +57,8 @@ description: Senior Unity development for teams building, releasing, and support
       <li>Part-time contract</li>
       <li>Full-time contract / hire</li>
       <li>Project-based work</li>
+      <li>Netherlands-based, available for European and international cooperation</li>
     </ul>
-    <p class="supporting-copy">Netherlands-based, available for European and international cooperation.</p>
     <p class="supporting-copy">Rates and availability depend on scope, involvement, duration, and responsibility level.</p>
   </div>
 </section>
