@@ -48,16 +48,15 @@ description: Senior Unity development for teams building, releasing, and support
   </div>
 </section>
 
-<section id="work-options">
+<section id="availability">
   <div class="section-inner">
-    <h2>Work Options</h2>
-    <p class="section-lead">Available for focused tasks, project-based work, part-time contracts, full-time roles, and long-term cooperation.</p>
+    <h2>Availability</h2>
+    <p class="section-lead">Netherlands-based, available for European and international cooperation.</p>
     <ul>
       <li>Freelance tasks</li>
       <li>Part-time contract</li>
       <li>Full-time contract / hire</li>
       <li>Project-based work</li>
-      <li>Netherlands-based, available for European and international cooperation</li>
     </ul>
     <p class="supporting-copy">Rates and availability depend on scope, involvement, duration, and responsibility level.</p>
   </div>
@@ -75,7 +74,7 @@ description: Senior Unity development for teams building, releasing, and support
   <div class="section-inner">
     <h2>Contact</h2>
     <p>Send a short message to discuss the project, role, scope, availability, and pricing.</p>
-    <p><a class="cta-link" href="mailto:denis.kazantsev.work@gmail.com">Start the conversation</a></p>
-    <p>Email: <a href="mailto:denis.kazantsev.work@gmail.com">denis.kazantsev.work@gmail.com</a></p>
+    <p><a class="cta-link" href="mailto:contact@denisk.io">Start the conversation</a></p>
+    <p>Email: <a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
   </div>
 </section>
