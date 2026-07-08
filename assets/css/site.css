@@ -66,17 +66,9 @@ a:focus-visible {
 }
 
 .site-brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
+  display: inline-block;
   color: #ffffff;
   text-decoration: none;
-}
-
-.site-logo {
-  width: 42px;
-  height: 42px;
-  flex: 0 0 auto;
 }
 
 .site-brand-text,
