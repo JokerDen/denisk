@@ -6,8 +6,8 @@ description: Senior Unity development for teams building, releasing, and support
 
 <section class="hero" id="top">
   <div class="section-inner">
-    <h1>Game Developer for Hire</h1>
-    <p class="lead">Senior Unity development for teams building, releasing, and supporting games.</p>
+    <h1>Senior Game Developer</h1>
+    <p class="lead">I help teams develop and operate Unity games</p>
     <ul class="hero-list">
       <li>Live games, prototypes &amp; production support</li>
       <li>Mobile, Desktop, WebGL &amp; cross-platform delivery</li>
