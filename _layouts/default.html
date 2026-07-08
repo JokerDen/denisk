@@ -10,7 +10,13 @@
   <body>
     <header class="site-header">
       <div class="page">
-        <a class="site-title" href="{{ '/' | relative_url }}">Denis Kazantsev</a>
+        <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Denis Kazantsev, DenisK Interactive">
+          <img class="site-logo" src="{{ '/assets/logo.png' | relative_url }}" alt="" aria-hidden="true">
+          <span class="site-brand-text">
+            <span class="site-title">Denis Kazantsev</span>
+            <span class="site-subtitle">DenisK Interactive</span>
+          </span>
+        </a>
         <nav aria-label="Main navigation">
           <a href="#expertise">Expertise</a>
           <a href="#availability">Availability</a>

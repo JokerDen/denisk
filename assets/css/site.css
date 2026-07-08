@@ -65,11 +65,39 @@ a:focus-visible {
   gap: 24px;
 }
 
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-logo {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+}
+
+.site-brand-text,
+.site-title,
+.site-subtitle {
+  display: block;
+}
+
 .site-title {
   color: #ffffff;
   font-size: 21px;
   font-weight: 750;
-  text-decoration: none;
+  line-height: 1.1;
+}
+
+.site-subtitle {
+  margin-top: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.2;
 }
 
 nav {
@@ -295,7 +323,7 @@ strong {
   }
 
   :root {
-    --header-height: 92px;
+    --header-height: 112px;
   }
 
   .site-header .page {
