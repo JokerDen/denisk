@@ -5,7 +5,7 @@
   --ink: #14181f;
   --muted: #5d6773;
   --line: #d7dde4;
-  --accent: #24476f;
+  --accent: #000000;
   --max-width: 960px;
   --header-height: 72px;
 }
@@ -35,11 +35,11 @@ a {
 }
 
 a:hover {
-  color: #172f4c;
+  color: #2b2b2b;
 }
 
 a:focus-visible {
-  outline: 3px solid rgba(36, 71, 111, 0.3);
+  outline: 3px solid rgba(0, 0, 0, 0.32);
   outline-offset: 3px;
 }
 
@@ -52,8 +52,8 @@ a:focus-visible {
   position: sticky;
   top: 0;
   z-index: 10;
-  border-bottom: 1px solid var(--line);
-  background: rgba(246, 247, 249, 0.92);
+  border-bottom: 1px solid #000000;
+  background: #000000;
   backdrop-filter: blur(12px);
 }
 
@@ -66,7 +66,7 @@ a:focus-visible {
 }
 
 .site-title {
-  color: var(--ink);
+  color: #ffffff;
   font-size: 21px;
   font-weight: 750;
   text-decoration: none;
@@ -81,12 +81,17 @@ nav {
 }
 
 nav a {
-  color: var(--muted);
+  color: #ffffff;
   text-decoration: none;
 }
 
+.site-header a:hover,
 nav a:hover {
-  color: var(--ink);
+  color: #ffffff;
+}
+
+.site-header a:focus-visible {
+  outline-color: rgba(255, 255, 255, 0.72);
 }
 
 .content {
@@ -271,7 +276,7 @@ strong {
 
 .cta-link:hover {
   color: #ffffff;
-  background: #172f4c;
+  background: #2b2b2b;
 }
 
 .site-footer {
