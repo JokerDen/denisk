@@ -871,26 +871,25 @@ li::marker {
   display: flex;
   min-width: 0;
   flex: 1 1 0;
-  flex-direction: column;
   align-items: center;
-  gap: 11px;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
+  gap: 12px;
+  padding: 11px;
+  border: 1px solid #161b22;
+  border-radius: 6px;
   background: transparent;
-  text-align: center;
+  text-align: left;
 }
 
 .portfolio-map .project-icon {
-  width: 76px;
-  height: 76px;
-  border-radius: 14px;
+  width: 58px;
+  height: 58px;
+  border-radius: 10px;
   box-shadow: none;
 }
 
 .portfolio-map .project-copy {
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .portfolio-map .project-copy strong {
@@ -933,9 +932,9 @@ li::marker {
   min-height: 0;
   flex: 1 1 0;
   align-items: center;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
+  padding: 11px;
+  border: 1px solid #161b22;
+  border-radius: 6px;
   background: transparent;
   text-align: center;
 }
@@ -949,7 +948,7 @@ li::marker {
 
 .portfolio-map .experience-summary,
 .portfolio-map .experience-card-compact .experience-summary {
-  margin: 0 0 20px;
+  margin-top: 17px;
   color: #47515d;
   font-size: 14px;
   line-height: 1.55;
@@ -969,10 +968,13 @@ li::marker {
 .portfolio-map .mini-project {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 4px 10px;
+  padding: 11px;
+  border: 1px solid #161b22;
+  border-radius: 6px;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 
 .portfolio-map .mini-project > b {
@@ -993,9 +995,12 @@ li::marker {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 3px;
-  text-align: center;
+  padding: 11px;
+  border: 1px solid #161b22;
+  border-radius: 6px;
+  text-align: left;
 }
 
 .portfolio-map .mini-project-list strong {
@@ -1011,22 +1016,22 @@ li::marker {
 
 .portfolio-map .mini-project-with-image {
   flex-wrap: nowrap;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .portfolio-map .mini-project-with-image > a:first-child,
 .portfolio-map .mini-project-with-image > a:first-child img {
-  width: 72px;
-  height: 72px;
-  flex-basis: 72px;
-  border-radius: 12px;
+  width: 58px;
+  height: 58px;
+  flex-basis: 58px;
+  border-radius: 10px;
 }
 
 .portfolio-map .mini-project-with-image > span {
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .portfolio-map .igaming-tenure {
@@ -1171,8 +1176,8 @@ strong {
 
   .portfolio-map .project-item,
   .portfolio-map .prototype-project {
-    min-width: 125px;
-    flex: 1 1 calc(50% - 8px);
+    min-width: 100%;
+    flex: 1 1 100%;
   }
 
   .compact-list {
