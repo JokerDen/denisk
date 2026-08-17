@@ -34,6 +34,16 @@ description: Senior Unity development for teams building, releasing, and support
           </div>
         </header>
 
+        <div class="experience-summary">
+          <p>As part of GameOps Live Studios, I worked in a team designing and developing features for existing games to increase revenue.</p>
+          <ul class="compact-list">
+            <li>C# scripting and AI programming</li>
+            <li>Planning, design, implementation, and code review</li>
+            <li>Release management</li>
+            <li>Jenkins CI integration</li>
+          </ul>
+        </div>
+
         <div class="project-grid project-grid-four">
           <div class="project-item">
             <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.TrofyGames.UboatAttack" target="_blank" rel="noopener noreferrer" aria-label="Uboat Attack on Google Play">
@@ -108,15 +118,6 @@ description: Senior Unity development for teams building, releasing, and support
           </div>
         </div>
 
-        <div class="experience-summary">
-          <p>As part of GameOps Live Studios, I worked in a team designing and developing features for existing games to increase revenue.</p>
-          <ul class="compact-list">
-            <li>C# scripting and AI programming</li>
-            <li>Planning, design, implementation, and code review</li>
-            <li>Release management</li>
-            <li>Jenkins CI integration</li>
-          </ul>
-        </div>
       </article>
 
       <article class="experience-card experience-indie">
@@ -126,8 +127,8 @@ description: Senior Unity development for teams building, releasing, and support
             <p class="experience-role">Game Developer <span class="experience-years">2011–2026</span></p>
           </div>
         </header>
-        <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
         <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
+        <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
       </article>
 
       <article class="experience-card experience-white-room">
@@ -137,6 +138,7 @@ description: Senior Unity development for teams building, releasing, and support
             <p class="experience-role">Lead Unity Developer <span class="experience-years">2018–2022</span></p>
           </div>
         </header>
+        <p class="experience-summary">At a mobile gaming startup, I developed and supported our major hit games from first prototype through full production, reaching millions of installs.</p>
         <div class="project-grid project-grid-three">
           <div class="project-item">
             <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.whiteroom.crazydelivery" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on Google Play">
@@ -168,7 +170,6 @@ description: Senior Unity development for teams building, releasing, and support
             <strong>Hyper-Casual prototypes</strong>
           </div>
         </div>
-        <p class="experience-summary">At a mobile gaming startup, I developed and supported our major hit games from first prototype through full production, reaching millions of installs.</p>
       </article>
 
       <article class="experience-card experience-ilogos experience-card-compact">
@@ -181,8 +182,8 @@ description: Senior Unity development for teams building, releasing, and support
             <p class="experience-role">Flash Developer</p>
           </div>
         </header>
-        <div class="mini-project"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
         <p class="experience-summary">Live support and release management for an external studio.</p>
+        <div class="mini-project"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
       </article>
 
       <article class="experience-card experience-saber experience-card-compact">
@@ -195,12 +196,12 @@ description: Senior Unity development for teams building, releasing, and support
             <p class="experience-role">UI Technical Artist <span class="experience-years">2016–2017</span></p>
           </div>
         </header>
+        <p class="experience-summary">Console UI integration with ActionScript and Scaleform.</p>
         <div class="mini-project mini-project-with-image">
           <a href="https://store.playstation.com/en-us/concept/222920" target="_blank" rel="noopener noreferrer" aria-label="Armored Warfare on PlayStation Store"><img src="{{ '/assets/portfolio/armored-warfare.png' | relative_url }}" alt="Armored Warfare"></a>
           <span><strong>Armored Warfare</strong><small>PS4 port · My.Games / Obsidian</small></span>
           <a class="store-link" href="https://store.playstation.com/en-us/concept/222920" target="_blank" rel="noopener noreferrer" aria-label="Armored Warfare on PlayStation Store" title="PlayStation Store"><img src="{{ '/assets/portfolio/playstation.svg' | relative_url }}" alt=""></a>
         </div>
-        <p class="experience-summary">Console UI integration with ActionScript and Scaleform.</p>
       </article>
 
       <article class="experience-card experience-kosmos experience-card-compact">

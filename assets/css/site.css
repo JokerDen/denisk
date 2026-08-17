@@ -949,7 +949,7 @@ li::marker {
 
 .portfolio-map .experience-summary,
 .portfolio-map .experience-card-compact .experience-summary {
-  margin-top: 17px;
+  margin: 0 0 20px;
   color: #47515d;
   font-size: 14px;
   line-height: 1.55;
