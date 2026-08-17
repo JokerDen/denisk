@@ -31,7 +31,7 @@ description: Senior Unity development for teams building, releasing, and support
           </a>
           <div>
             <h3>Unity Developer</h3>
-            <p class="experience-role">Voodoo <span class="experience-years">2022–2026</span></p>
+            <p class="experience-role">Voodoo &nbsp;•&nbsp; 2022–2026</p>
           </div>
         </header>
 
@@ -124,7 +124,7 @@ description: Senior Unity development for teams building, releasing, and support
         <header class="experience-header">
           <div>
             <h3>Independent</h3>
-            <p class="experience-role">Game Developer <span class="experience-years">2011–2026</span></p>
+            <p class="experience-role">Game Developer &nbsp;•&nbsp; 2011–2026</p>
           </div>
         </header>
         <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
@@ -135,7 +135,7 @@ description: Senior Unity development for teams building, releasing, and support
         <header class="experience-header">
           <div>
             <h3>Lead Unity Developer</h3>
-            <p class="experience-role">Fun-To-Mass <span class="experience-years">2018–2022</span></p>
+            <p class="experience-role">Fun-To-Mass &nbsp;•&nbsp; 2018–2022</p>
           </div>
         </header>
         <div class="project-grid project-grid-three">
@@ -180,7 +180,7 @@ description: Senior Unity development for teams building, releasing, and support
           </a>
           <div>
             <h3>Flash Developer</h3>
-            <p class="experience-role">iLogos <span class="experience-years">2017–2018</span></p>
+            <p class="experience-role">iLogos &nbsp;•&nbsp; 2017–2018</p>
           </div>
         </header>
         <div class="mini-project mini-project-stacked"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
@@ -194,7 +194,7 @@ description: Senior Unity development for teams building, releasing, and support
           </a>
           <div>
             <h3>UI Technical Artist</h3>
-            <p class="experience-role">Saber Interactive <span class="experience-years">2016–2017</span></p>
+            <p class="experience-role">Saber Interactive &nbsp;•&nbsp; 2016–2017</p>
           </div>
         </header>
         <div class="mini-project mini-project-stacked">
@@ -206,7 +206,7 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-kosmos experience-card-compact">
         <header class="experience-header">
-          <div><h3>Programmer</h3><p class="experience-role">Kosmos <span class="experience-years">2015–2016</span></p></div>
+          <div><h3>Programmer</h3><p class="experience-role">Kosmos &nbsp;•&nbsp; 2015–2016</p></div>
         </header>
         <ul class="mini-project-list">
           <li><strong>Solitaire Social</strong><small>Facebook</small></li>
@@ -216,7 +216,7 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-ifree experience-card-compact">
         <header class="experience-header">
-          <div><h3>Flash Developer</h3><p class="experience-role">i-Free <span class="experience-years">2013–2014</span></p></div>
+          <div><h3>Flash Developer</h3><p class="experience-role">i-Free &nbsp;•&nbsp; 2013–2014</p></div>
         </header>
         <ul class="mini-project-list">
           <li><strong>Evilibrium</strong><small>Mobile</small></li>
@@ -226,7 +226,7 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-igaming experience-card-compact">
         <header class="experience-header">
-          <div><h3>iGaming</h3><p class="experience-role">Developer <span class="experience-years">2+ years</span></p></div>
+          <div><h3>iGaming</h3><p class="experience-role">Developer &nbsp;•&nbsp; 2+ years</p></div>
         </header>
         <p class="experience-summary">Development of multiple commercial iGaming products.</p>
       </article>
