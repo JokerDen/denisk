@@ -259,14 +259,11 @@ li::marker {
 }
 
 .portfolio .section-inner {
-  width: min(100% - 36px, 1240px);
+  width: min(100% - 44px, var(--max-width));
 }
 
 .portfolio-heading {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 36px;
+  display: block;
 }
 
 .portfolio-heading h2 {
@@ -284,12 +281,12 @@ li::marker {
 .portfolio-map {
   display: grid;
   grid-template-areas:
-    "voodoo voodoo voodoo indie"
-    "voodoo voodoo voodoo indie"
-    "white white white indie"
-    "white white white ilogos"
-    "saber kosmos ifree igaming";
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+    "voodoo voodoo voodoo voodoo voodoo voodoo"
+    "white white white white white white"
+    "saber saber saber ilogos ilogos ilogos"
+    "kosmos kosmos ifree ifree igaming igaming"
+    "indie indie indie indie indie indie";
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
   margin-top: 36px;
 }
@@ -811,6 +808,22 @@ li::marker {
   margin-bottom: 18px;
 }
 
+.portfolio-map .experience-voodoo,
+.portfolio-map .experience-white-room {
+  padding-block: 26px;
+}
+
+.experience-years {
+  flex: 0 0 auto;
+  align-self: flex-start;
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
 .portfolio-map .experience-header h3,
 .portfolio-map .experience-card-compact .experience-header h3 {
   font-size: clamp(21px, 1.8vw, 25px);
@@ -1105,7 +1118,7 @@ strong {
   }
 
   .portfolio .section-inner {
-    width: min(100% - 28px, 1240px);
+    width: min(100% - 44px, var(--max-width));
   }
 
   .portfolio-heading {
@@ -1119,13 +1132,13 @@ strong {
   .portfolio-map {
     grid-template-areas:
       "voodoo"
-      "indie"
       "white"
-      "ilogos"
       "saber"
+      "ilogos"
       "kosmos"
       "ifree"
-      "igaming";
+      "igaming"
+      "indie";
     grid-template-columns: minmax(0, 1fr);
     margin-top: 26px;
   }
@@ -1146,7 +1159,7 @@ strong {
 
   .portfolio-map .project-item,
   .portfolio-map .prototype-project {
-    min-width: 140px;
+    min-width: 125px;
     flex: 1 1 calc(50% - 8px);
   }
 
@@ -1158,12 +1171,12 @@ strong {
 @media (min-width: 721px) and (max-width: 1080px) {
   .portfolio-map {
     grid-template-areas:
-      "voodoo voodoo"
-      "indie ilogos"
-      "white white"
-      "saber kosmos"
-      "ifree igaming";
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+      "voodoo voodoo voodoo voodoo voodoo voodoo"
+      "white white white white white white"
+      "saber saber saber ilogos ilogos ilogos"
+      "kosmos kosmos ifree ifree igaming igaming"
+      "indie indie indie indie indie indie";
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .project-grid-three {

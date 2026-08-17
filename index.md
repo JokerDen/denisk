@@ -20,19 +20,19 @@ description: Senior Unity development for teams building, releasing, and support
   <div class="section-inner">
     <div class="portfolio-heading">
       <h2>Portfolio</h2>
-      <p>Selected work across live games, mobile hits, console production, and independent projects.</p>
     </div>
 
     <div class="portfolio-map" aria-label="Work experience and selected projects">
       <article class="experience-card experience-voodoo">
         <header class="experience-header">
           <a class="company-logo company-logo-image company-logo-dark" href="https://www.voodoo.io/" target="_blank" rel="noopener noreferrer" aria-label="Voodoo website">
-            <img src="{{ '/assets/portfolio/company-voodoo.jpg' | relative_url }}" alt="Voodoo">
+            <img src="{{ '/assets/portfolio/voodooio_logo.jpeg' | relative_url }}" alt="Voodoo">
           </a>
           <div>
             <h3>Voodoo</h3>
             <p class="experience-role">Unity Developer</p>
           </div>
+          <span class="experience-years">2022–2026</span>
         </header>
 
         <div class="project-grid project-grid-four">
@@ -126,6 +126,7 @@ description: Senior Unity development for teams building, releasing, and support
             <h3>Independent</h3>
             <p class="experience-role">Game Developer</p>
           </div>
+          <span class="experience-years">2011–2026</span>
         </header>
         <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
         <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
@@ -137,6 +138,7 @@ description: Senior Unity development for teams building, releasing, and support
             <h3>White Room Games / Fun-To-Mass</h3>
             <p class="experience-role">Lead Unity Developer</p>
           </div>
+          <span class="experience-years">2018–2022</span>
         </header>
         <div class="project-grid project-grid-three">
           <div class="project-item">
@@ -175,7 +177,7 @@ description: Senior Unity development for teams building, releasing, and support
       <article class="experience-card experience-ilogos experience-card-compact">
         <header class="experience-header">
           <a class="company-logo company-logo-image" href="https://ilogos.biz/" target="_blank" rel="noopener noreferrer" aria-label="iLogos website">
-            <img src="{{ '/assets/portfolio/company-ilogos.png' | relative_url }}" alt="iLogos">
+            <img src="{{ '/assets/portfolio/ilogos_logo.jpeg' | relative_url }}" alt="iLogos">
           </a>
           <div>
             <h3>iLogos</h3>
@@ -195,6 +197,7 @@ description: Senior Unity development for teams building, releasing, and support
             <h3>Saber Interactive</h3>
             <p class="experience-role">UI Technical Artist</p>
           </div>
+          <span class="experience-years">2016–2017</span>
         </header>
         <div class="mini-project mini-project-with-image">
           <a href="https://store.playstation.com/en-us/concept/222920" target="_blank" rel="noopener noreferrer" aria-label="Armored Warfare on PlayStation Store"><img src="{{ '/assets/portfolio/armored-warfare.png' | relative_url }}" alt="Armored Warfare"></a>
@@ -206,7 +209,11 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-kosmos experience-card-compact">
         <header class="experience-header">
+          <span class="company-logo company-logo-image">
+            <img src="{{ '/assets/portfolio/kosmos_games_logo.jpeg' | relative_url }}" alt="Kosmos Games">
+          </span>
           <div><h3>Kosmos</h3><p class="experience-role">Programmer</p></div>
+          <span class="experience-years">2015–2016</span>
         </header>
         <ul class="mini-project-list">
           <li><strong>Solitaire Social</strong><small>Facebook</small></li>
@@ -217,9 +224,10 @@ description: Senior Unity development for teams building, releasing, and support
       <article class="experience-card experience-ifree experience-card-compact">
         <header class="experience-header">
           <a class="company-logo company-logo-image company-logo-dark" href="https://i-free.com/" target="_blank" rel="noopener noreferrer" aria-label="i-Free website">
-            <img src="{{ '/assets/portfolio/company-ifree.webp' | relative_url }}" alt="i-Free">
+            <img src="{{ '/assets/portfolio/i_free_logo.jpeg' | relative_url }}" alt="i-Free">
           </a>
           <div><h3>i-Free</h3><p class="experience-role">Flash Developer</p></div>
+          <span class="experience-years">2013–2014</span>
         </header>
         <ul class="mini-project-list">
           <li><strong>Evilibrium</strong><small>Mobile</small></li>
