@@ -839,7 +839,7 @@ li::marker {
 /* Simplified portfolio visual system */
 .portfolio-map .experience-card {
   padding: 20px;
-  border: 1px solid transparent;
+  border: 1px solid rgba(22, 27, 34, 0.08);
   border-radius: 6px;
   background: transparent;
   box-shadow: none;
