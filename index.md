@@ -197,9 +197,8 @@ description: Senior Unity development for teams building, releasing, and support
           </div>
         </header>
         <div class="mini-project mini-project-with-image">
-          <a href="https://store.playstation.com/en-us/concept/222920" target="_blank" rel="noopener noreferrer" aria-label="Armored Warfare on PlayStation Store"><img src="{{ '/assets/portfolio/armored-warfare.png' | relative_url }}" alt="Armored Warfare"></a>
+          <img src="{{ '/assets/portfolio/armored-warfare.png' | relative_url }}" alt="Armored Warfare">
           <span><strong>Armored Warfare</strong><small>PS4 port · My.Games / Obsidian</small></span>
-          <a class="store-link" href="https://store.playstation.com/en-us/concept/222920" target="_blank" rel="noopener noreferrer" aria-label="Armored Warfare on PlayStation Store" title="PlayStation Store"><img src="{{ '/assets/portfolio/playstation.svg' | relative_url }}" alt=""></a>
         </div>
         <p class="experience-summary">Console UI integration with ActionScript and Scaleform.</p>
       </article>

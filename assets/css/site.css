@@ -741,8 +741,7 @@ li::marker {
   flex-wrap: nowrap;
 }
 
-.mini-project-with-image > a:first-child,
-.mini-project-with-image > a:first-child img {
+.mini-project-with-image > img:first-child {
   display: block;
   width: 48px;
   height: 48px;
@@ -1044,8 +1043,7 @@ li::marker {
   text-align: left;
 }
 
-.portfolio-map .mini-project-with-image > a:first-child,
-.portfolio-map .mini-project-with-image > a:first-child img {
+.portfolio-map .mini-project-with-image > img:first-child {
   width: 58px;
   height: 58px;
   flex-basis: 58px;
