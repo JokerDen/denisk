@@ -120,33 +120,22 @@ description: Senior Unity development for teams building, releasing, and support
         </div>
       </article>
 
-      <article class="experience-card experience-indie experience-card-dark">
+      <article class="experience-card experience-indie">
         <header class="experience-header">
-          <span class="company-logo company-logo-text company-logo-light" aria-hidden="true">DK</span>
           <div>
             <h3>Independent</h3>
             <p class="experience-role">Game Developer</p>
           </div>
         </header>
-        <p class="indie-platforms">Non-commercial games for Steam, mobile, and WebGL.</p>
-        <div class="platform-row" aria-label="Platforms">
-          <span class="platform-badge"><img src="{{ '/assets/portfolio/steam.svg' | relative_url }}" alt="">Steam</span>
-          <span class="platform-badge"><img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt="">Mobile</span>
-          <span class="platform-badge platform-badge-text">WebGL</span>
-        </div>
-        <div class="indie-stats">
-          <div><strong>20+</strong><span>Game Jams</span></div>
-          <div><strong>18</strong><span>Ludum Dare Compo</span></div>
-        </div>
+        <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
         <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
       </article>
 
       <article class="experience-card experience-white-room">
         <header class="experience-header">
-          <span class="company-logo company-logo-text company-logo-accent" aria-hidden="true">WR</span>
           <div>
-            <h3>White Room Games <span class="company-alias">/ Fun-To-Mass</span></h3>
-            <p class="experience-role">Unity Developer · Lead Developer</p>
+            <h3>White Room Games / Fun-To-Mass</h3>
+            <p class="experience-role">Lead Unity Developer</p>
           </div>
         </header>
         <div class="project-grid project-grid-three">
@@ -193,7 +182,7 @@ description: Senior Unity development for teams building, releasing, and support
             <p class="experience-role">Flash Developer</p>
           </div>
         </header>
-        <div class="mini-project"><span class="mini-project-icon">4X</span><strong>Android 4X Game</strong><b>1M+ installs</b></div>
+        <div class="mini-project"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
         <p class="experience-summary">Live support and release management for an external studio.</p>
       </article>
 
@@ -217,16 +206,15 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-kosmos experience-card-compact">
         <header class="experience-header">
-          <span class="company-logo company-logo-text company-logo-blue" aria-hidden="true">K</span>
           <div><h3>Kosmos</h3><p class="experience-role">Programmer</p></div>
         </header>
         <ul class="mini-project-list">
-          <li><span class="mini-project-icon">♠</span><strong>Solitaire Social</strong><small>Facebook</small></li>
-          <li><span class="mini-project-icon">♦</span><strong>Solitaire Dash</strong><small>Mobile</small></li>
+          <li><strong>Solitaire Social</strong><small>Facebook</small></li>
+          <li><strong>Solitaire Dash</strong><small>Mobile</small></li>
         </ul>
       </article>
 
-      <article class="experience-card experience-ifree experience-card-compact experience-card-dark">
+      <article class="experience-card experience-ifree experience-card-compact">
         <header class="experience-header">
           <a class="company-logo company-logo-image company-logo-dark" href="https://i-free.com/" target="_blank" rel="noopener noreferrer" aria-label="i-Free website">
             <img src="{{ '/assets/portfolio/company-ifree.webp' | relative_url }}" alt="i-Free">
@@ -234,14 +222,13 @@ description: Senior Unity development for teams building, releasing, and support
           <div><h3>i-Free</h3><p class="experience-role">Flash Developer</p></div>
         </header>
         <ul class="mini-project-list">
-          <li><span class="mini-project-icon">E</span><strong>Evilibrium</strong><small>Mobile</small></li>
-          <li><span class="mini-project-icon">K</span><strong>Puzzle games</strong><small>KakaoTalk</small></li>
+          <li><strong>Evilibrium</strong><small>Mobile</small></li>
+          <li><strong>Puzzle games</strong><small>KakaoTalk</small></li>
         </ul>
       </article>
 
       <article class="experience-card experience-igaming experience-card-compact">
         <header class="experience-header">
-          <span class="company-logo company-logo-text company-logo-muted" aria-hidden="true">iG</span>
           <div><h3>iGaming</h3><p class="experience-role">Developer</p></div>
         </header>
         <p class="igaming-tenure"><strong>2+ years</strong> developing commercial iGaming products.</p>

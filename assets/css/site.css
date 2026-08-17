@@ -796,6 +796,206 @@ li::marker {
   font-size: 21px;
 }
 
+/* Simplified portfolio visual system */
+.portfolio-map .experience-card {
+  padding: 20px;
+  border: 1px solid #161b22;
+  border-radius: 6px;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ink);
+}
+
+.portfolio-map .experience-header {
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.portfolio-map .experience-header h3,
+.portfolio-map .experience-card-compact .experience-header h3 {
+  font-size: clamp(21px, 1.8vw, 25px);
+  font-weight: 550;
+  line-height: 1.2;
+}
+
+.portfolio-map .experience-role,
+.portfolio-map .experience-card-compact .experience-role {
+  margin-top: 4px;
+  color: #4f5965;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 1.35;
+}
+
+.portfolio-map .company-logo,
+.portfolio-map .experience-card-compact .company-logo {
+  width: 50px;
+  height: 50px;
+  flex-basis: 50px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+}
+
+.portfolio-map .company-logo-dark,
+.portfolio-map .experience-card-compact .company-logo-dark {
+  background: #000000;
+}
+
+.portfolio-map .project-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.portfolio-map .project-item {
+  display: flex;
+  min-width: 0;
+  flex: 1 1 0;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.portfolio-map .project-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.portfolio-map .project-copy strong {
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.portfolio-map .project-copy > span:not(.store-links) {
+  font-size: 13px;
+}
+
+.portfolio-map .store-links {
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.portfolio-map .store-link {
+  width: 20px;
+  height: 20px;
+  flex-basis: 20px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.portfolio-map .store-link:hover {
+  transform: translateY(-1px);
+}
+
+.portfolio-map .store-link img {
+  width: 16px;
+  height: 16px;
+}
+
+.portfolio-map .prototype-project {
+  min-height: 0;
+  flex: 1 1 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.portfolio-map .prototype-count {
+  margin-bottom: 3px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.portfolio-map .experience-summary,
+.portfolio-map .experience-card-compact .experience-summary {
+  margin-top: 17px;
+  color: #47515d;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.indie-facts {
+  margin: 0;
+  color: #27313c;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.portfolio-map .experience-card-compact {
+  padding: 20px;
+}
+
+.portfolio-map .mini-project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  font-size: 14px;
+}
+
+.portfolio-map .mini-project > b {
+  width: auto;
+  padding-left: 0;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.portfolio-map .mini-project-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  font-size: 14px;
+}
+
+.portfolio-map .mini-project-list li {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.portfolio-map .mini-project-list strong {
+  font-weight: 650;
+}
+
+.portfolio-map .mini-project-list small,
+.portfolio-map .mini-project-with-image small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.portfolio-map .mini-project-with-image {
+  flex-wrap: nowrap;
+}
+
+.portfolio-map .mini-project-with-image > a:first-child,
+.portfolio-map .mini-project-with-image > a:first-child img {
+  width: 46px;
+  height: 46px;
+  flex-basis: 46px;
+  border-radius: 7px;
+}
+
+.portfolio-map .igaming-tenure {
+  font-size: 14px;
+}
+
+.portfolio-map .igaming-tenure strong {
+  font-size: 18px;
+  font-weight: 650;
+}
+
 strong {
   color: var(--ink);
   font-weight: 750;
@@ -937,6 +1137,17 @@ strong {
   .project-grid-four,
   .project-grid-three {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .portfolio-map .project-grid {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .portfolio-map .project-item,
+  .portfolio-map .prototype-project {
+    min-width: 140px;
+    flex: 1 1 calc(50% - 8px);
   }
 
   .compact-list {
