@@ -839,7 +839,7 @@ li::marker {
 /* Simplified portfolio visual system */
 .portfolio-map .experience-card {
   padding: 20px;
-  border: 1px solid rgba(22, 27, 34, 0.18);
+  border: 1px solid #161b22;
   border-radius: 6px;
   background: transparent;
   box-shadow: none;
@@ -899,7 +899,7 @@ li::marker {
   display: flex;
   min-width: 0;
   width: max-content;
-  flex: 0 0 auto;
+  flex: 1 1 max-content;
   align-items: stretch;
   gap: 0;
   padding: 0;
@@ -980,7 +980,7 @@ li::marker {
 .portfolio-map .prototype-project {
   min-height: 0;
   width: max-content;
-  flex: 0 0 auto;
+  flex: 1 1 max-content;
   align-items: center;
   padding: 11px;
   border: 1px solid rgba(22, 27, 34, 0.18);
@@ -1079,7 +1079,7 @@ li::marker {
   display: flex;
   width: max-content;
   min-width: 0;
-  flex: 0 0 auto;
+  flex: 1 1 max-content;
   flex-direction: column;
   align-items: flex-start;
   gap: 3px;
@@ -1264,7 +1264,7 @@ strong {
   .portfolio-map .project-item,
   .portfolio-map .prototype-project {
     min-width: 0;
-    flex: 0 0 auto;
+    flex: 1 1 max-content;
   }
 
   .compact-list {
