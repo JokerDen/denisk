@@ -30,8 +30,8 @@ description: Senior Unity development for teams building, releasing, and support
             <img src="{{ '/assets/portfolio/voodooio_logo.jpeg' | relative_url }}" alt="Voodoo">
           </a>
           <div>
-            <h3>Voodoo</h3>
-            <p class="experience-role">Unity Developer <span class="experience-years">2022–2026</span></p>
+            <h3>Unity Developer</h3>
+            <p class="experience-role">Voodoo <span class="experience-years">2022–2026</span></p>
           </div>
         </header>
 
@@ -134,8 +134,8 @@ description: Senior Unity development for teams building, releasing, and support
       <article class="experience-card experience-white-room">
         <header class="experience-header">
           <div>
-            <h3>Fun-To-Mass</h3>
-            <p class="experience-role">Lead Unity Developer <span class="experience-years">2018–2022</span></p>
+            <h3>Lead Unity Developer</h3>
+            <p class="experience-role">Fun-To-Mass <span class="experience-years">2018–2022</span></p>
           </div>
         </header>
         <div class="project-grid project-grid-three">
@@ -179,8 +179,8 @@ description: Senior Unity development for teams building, releasing, and support
             <img src="{{ '/assets/portfolio/ilogos_logo.jpeg' | relative_url }}" alt="iLogos">
           </a>
           <div>
-            <h3>iLogos</h3>
-            <p class="experience-role">Flash Developer</p>
+            <h3>Flash Developer</h3>
+            <p class="experience-role">iLogos <span class="experience-years">2017–2018</span></p>
           </div>
         </header>
         <div class="mini-project mini-project-stacked"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
@@ -193,8 +193,8 @@ description: Senior Unity development for teams building, releasing, and support
             <img src="{{ '/assets/portfolio/company-saber.png' | relative_url }}" alt="Saber Interactive">
           </a>
           <div>
-            <h3>Saber Interactive</h3>
-            <p class="experience-role">UI Technical Artist <span class="experience-years">2016–2017</span></p>
+            <h3>UI Technical Artist</h3>
+            <p class="experience-role">Saber Interactive <span class="experience-years">2016–2017</span></p>
           </div>
         </header>
         <div class="mini-project mini-project-stacked">
@@ -206,10 +206,7 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-kosmos experience-card-compact">
         <header class="experience-header">
-          <span class="company-logo company-logo-image">
-            <img src="{{ '/assets/portfolio/kosmos_games_logo.jpeg' | relative_url }}" alt="Kosmos Games">
-          </span>
-          <div><h3>Kosmos</h3><p class="experience-role">Programmer <span class="experience-years">2015–2016</span></p></div>
+          <div><h3>Programmer</h3><p class="experience-role">Kosmos <span class="experience-years">2015–2016</span></p></div>
         </header>
         <ul class="mini-project-list">
           <li><strong>Solitaire Social</strong><small>Facebook</small></li>
@@ -219,10 +216,7 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-ifree experience-card-compact">
         <header class="experience-header">
-          <a class="company-logo company-logo-image company-logo-dark" href="https://i-free.com/" target="_blank" rel="noopener noreferrer" aria-label="i-Free website">
-            <img src="{{ '/assets/portfolio/i_free_logo.jpeg' | relative_url }}" alt="i-Free">
-          </a>
-          <div><h3>i-Free</h3><p class="experience-role">Flash Developer <span class="experience-years">2013–2014</span></p></div>
+          <div><h3>Flash Developer</h3><p class="experience-role">i-Free <span class="experience-years">2013–2014</span></p></div>
         </header>
         <ul class="mini-project-list">
           <li><strong>Evilibrium</strong><small>Mobile</small></li>
@@ -295,6 +289,8 @@ description: Senior Unity development for teams building, releasing, and support
       <a class="contact-icon-link" href="https://www.linkedin.com/in/denis-kazantsev-27487178/" target="_blank" rel="noopener noreferrer" aria-label="Denis Kazantsev on LinkedIn" title="LinkedIn">
         <img src="{{ '/assets/portfolio/linkedin.svg' | relative_url }}" alt="">
       </a>
+      <span class="contact-link-separator" aria-hidden="true">/</span>
+      <a class="contact-cv-link" href="https://drive.google.com/file/d/1a8a3UxicCgPbDYsgkuCztIYjkrMfm5PJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
     </p>
   </div>
 </section>

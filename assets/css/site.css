@@ -199,24 +199,47 @@ ul:last-child {
 }
 
 .contact-social-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   margin-top: 20px;
 }
 
-.contact-icon-link,
-.contact-icon-link img {
-  display: block;
-  width: 28px;
-  height: 28px;
+.contact-icon-link {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid var(--ink);
+  border-radius: 4px;
+  line-height: 0;
+  transition: background-color 120ms ease, transform 120ms ease;
 }
 
-.contact-icon-link {
-  width: fit-content;
-  line-height: 0;
-  transition: transform 120ms ease;
+.contact-icon-link img {
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .contact-icon-link:hover {
+  background: var(--ink);
   transform: translateY(-1px);
+}
+
+.contact-icon-link:hover img {
+  filter: invert(1);
+}
+
+.contact-link-separator {
+  color: var(--muted);
+}
+
+.contact-cv-link {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .section-lead {
@@ -816,11 +839,16 @@ li::marker {
 /* Simplified portfolio visual system */
 .portfolio-map .experience-card {
   padding: 20px;
-  border: 1px solid #161b22;
+  border: 1px solid transparent;
   border-radius: 6px;
   background: transparent;
   box-shadow: none;
   color: var(--ink);
+  transition: border-color 140ms ease;
+}
+
+.portfolio-map .experience-card:hover {
+  border-color: rgba(22, 27, 34, 0.16);
 }
 
 .portfolio-map .experience-header {
@@ -883,7 +911,7 @@ li::marker {
 .portfolio-map .project-grid {
   display: flex;
   flex-wrap: nowrap;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 18px;
 }
 
@@ -927,6 +955,11 @@ li::marker {
 .portfolio-map .project-copy strong {
   font-size: 15px;
   font-weight: 650;
+}
+
+.portfolio-map .experience-voodoo .project-copy strong {
+  font-size: 14px;
+  white-space: nowrap;
 }
 
 .portfolio-map .project-copy > span:not(.store-links) {
@@ -1030,6 +1063,11 @@ li::marker {
   flex-direction: column;
   align-items: flex-start;
   gap: 3px;
+}
+
+.portfolio-map .experience-ilogos .mini-project,
+.portfolio-map .experience-saber .mini-project {
+  width: 50%;
 }
 
 .portfolio-map .mini-project small {
