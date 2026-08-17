@@ -30,9 +30,8 @@ description: Senior Unity development for teams building, releasing, and support
           </a>
           <div>
             <h3>Voodoo</h3>
-            <p class="experience-role">Unity Developer</p>
+            <p class="experience-role">Unity Developer <span class="experience-years">2022–2026</span></p>
           </div>
-          <span class="experience-years">2022–2026</span>
         </header>
 
         <div class="project-grid project-grid-four">
@@ -124,9 +123,8 @@ description: Senior Unity development for teams building, releasing, and support
         <header class="experience-header">
           <div>
             <h3>Independent</h3>
-            <p class="experience-role">Game Developer</p>
+            <p class="experience-role">Game Developer <span class="experience-years">2011–2026</span></p>
           </div>
-          <span class="experience-years">2011–2026</span>
         </header>
         <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
         <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
@@ -136,9 +134,8 @@ description: Senior Unity development for teams building, releasing, and support
         <header class="experience-header">
           <div>
             <h3>White Room Games / Fun-To-Mass</h3>
-            <p class="experience-role">Lead Unity Developer</p>
+            <p class="experience-role">Lead Unity Developer <span class="experience-years">2018–2022</span></p>
           </div>
-          <span class="experience-years">2018–2022</span>
         </header>
         <div class="project-grid project-grid-three">
           <div class="project-item">
@@ -195,9 +192,8 @@ description: Senior Unity development for teams building, releasing, and support
           </a>
           <div>
             <h3>Saber Interactive</h3>
-            <p class="experience-role">UI Technical Artist</p>
+            <p class="experience-role">UI Technical Artist <span class="experience-years">2016–2017</span></p>
           </div>
-          <span class="experience-years">2016–2017</span>
         </header>
         <div class="mini-project mini-project-with-image">
           <a href="https://store.playstation.com/en-us/concept/222920" target="_blank" rel="noopener noreferrer" aria-label="Armored Warfare on PlayStation Store"><img src="{{ '/assets/portfolio/armored-warfare.png' | relative_url }}" alt="Armored Warfare"></a>
@@ -212,8 +208,7 @@ description: Senior Unity development for teams building, releasing, and support
           <span class="company-logo company-logo-image">
             <img src="{{ '/assets/portfolio/kosmos_games_logo.jpeg' | relative_url }}" alt="Kosmos Games">
           </span>
-          <div><h3>Kosmos</h3><p class="experience-role">Programmer</p></div>
-          <span class="experience-years">2015–2016</span>
+          <div><h3>Kosmos</h3><p class="experience-role">Programmer <span class="experience-years">2015–2016</span></p></div>
         </header>
         <ul class="mini-project-list">
           <li><strong>Solitaire Social</strong><small>Facebook</small></li>
@@ -226,8 +221,7 @@ description: Senior Unity development for teams building, releasing, and support
           <a class="company-logo company-logo-image company-logo-dark" href="https://i-free.com/" target="_blank" rel="noopener noreferrer" aria-label="i-Free website">
             <img src="{{ '/assets/portfolio/i_free_logo.jpeg' | relative_url }}" alt="i-Free">
           </a>
-          <div><h3>i-Free</h3><p class="experience-role">Flash Developer</p></div>
-          <span class="experience-years">2013–2014</span>
+          <div><h3>i-Free</h3><p class="experience-role">Flash Developer <span class="experience-years">2013–2014</span></p></div>
         </header>
         <ul class="mini-project-list">
           <li><strong>Evilibrium</strong><small>Mobile</small></li>
@@ -242,6 +236,20 @@ description: Senior Unity development for teams building, releasing, and support
         <p class="igaming-tenure"><strong>2+ years</strong> developing commercial iGaming products.</p>
       </article>
     </div>
+  </div>
+</section>
+
+<section id="availability">
+  <div class="section-inner">
+    <h2>Availability</h2>
+    <p class="section-lead">Netherlands-based, available for European and International hire.</p>
+    <ul>
+      <li>Freelance tasks</li>
+      <li>Part-time contract</li>
+      <li>Full-time contract / hire</li>
+      <li>Project-based work</li>
+    </ul>
+    <p class="supporting-copy">Rates depend on scope, involvement, duration, and responsibility level.</p>
   </div>
 </section>
 
@@ -277,33 +285,9 @@ description: Senior Unity development for teams building, releasing, and support
   </div>
 </section>
 
-<section id="availability">
-  <div class="section-inner">
-    <h2>Availability</h2>
-    <p class="section-lead">Netherlands-based, available for European and International hire.</p>
-    <ul>
-      <li>Freelance tasks</li>
-      <li>Part-time contract</li>
-      <li>Full-time contract / hire</li>
-      <li>Project-based work</li>
-    </ul>
-    <p class="supporting-copy">Rates depend on scope, involvement, duration, and responsibility level.</p>
-  </div>
-</section>
-
-<section id="background">
-  <div class="section-inner">
-    <h2>Background</h2>
-    <p class="section-lead">15+ years in commercial game development, with a focus on Unity production, mobile F2P games, LiveOps, releases, and cross-platform delivery.</p>
-    <p class="note-line">Companies &amp; projects: check my <a href="https://www.linkedin.com/in/denis-kazantsev-27487178/details/experience/">LinkedIn profile</a>.</p>
-  </div>
-</section>
-
 <section class="contact" id="contact">
   <div class="section-inner">
     <h2>Contact</h2>
-    <p>Send a short message to discuss the project, role, scope, availability, and pricing.</p>
-    <p><a class="cta-link" href="mailto:contact@denisk.io">Get in touch</a></p>
-    <p>Email: <a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
+    <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
   </div>
 </section>
