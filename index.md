@@ -20,6 +20,7 @@ description: Senior Unity development for teams building, releasing, and support
   <div class="section-inner">
     <div class="portfolio-heading">
       <h2>Portfolio</h2>
+      <p>15+ years in commercial game development, with a focus on Unity production, mobile F2P games, LiveOps, releases, and cross-platform delivery.</p>
     </div>
 
     <div class="portfolio-map" aria-label="Work experience and selected projects">
@@ -289,6 +290,11 @@ description: Senior Unity development for teams building, releasing, and support
   <div class="section-inner">
     <h2>Contact</h2>
     <p>Get in touch — let’s discuss about the project, scope, timing, and budget.</p>
-    <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
+    <p class="contact-links">
+      <a href="mailto:contact@denisk.io">contact@denisk.io</a>
+      <a class="contact-icon-link" href="https://www.linkedin.com/in/denis-kazantsev-27487178/" target="_blank" rel="noopener noreferrer" aria-label="Denis Kazantsev on LinkedIn" title="LinkedIn">
+        <img src="{{ '/assets/portfolio/linkedin.svg' | relative_url }}" alt="">
+      </a>
+    </p>
   </div>
 </section>

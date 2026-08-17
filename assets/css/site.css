@@ -198,6 +198,29 @@ ul:last-child {
   overflow-wrap: anywhere;
 }
 
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon-link,
+.contact-icon-link img {
+  display: block;
+  width: 21px;
+  height: 21px;
+}
+
+.contact-icon-link {
+  flex: 0 0 21px;
+  line-height: 0;
+  transition: transform 120ms ease;
+}
+
+.contact-icon-link:hover {
+  transform: translateY(-1px);
+}
+
 .section-lead {
   max-width: 800px;
   margin-bottom: 28px;
@@ -272,7 +295,7 @@ li::marker {
 
 .portfolio-heading p {
   max-width: 620px;
-  margin: 0 0 7px;
+  margin: 14px 0 0;
   color: var(--muted);
   font-size: clamp(17px, 1.6vw, 21px);
   line-height: 1.45;
