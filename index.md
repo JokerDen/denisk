@@ -228,7 +228,7 @@ description: Senior Unity development for teams building, releasing, and support
         <header class="experience-header">
           <div><h3>iGaming</h3><p class="experience-role">Developer <span class="experience-years">2+ years</span></p></div>
         </header>
-        <p class="experience-summary">Commercial iGaming product development.</p>
+        <p class="experience-summary">Development of multiple commercial iGaming products.</p>
       </article>
     </div>
   </div>
