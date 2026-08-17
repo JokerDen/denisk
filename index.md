@@ -288,6 +288,7 @@ description: Senior Unity development for teams building, releasing, and support
 <section class="contact" id="contact">
   <div class="section-inner">
     <h2>Contact</h2>
+    <p>Get in touch — let’s discuss about the project, scope, timing, and budget.</p>
     <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
   </div>
 </section>
