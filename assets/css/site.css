@@ -198,21 +198,19 @@ ul:last-child {
   overflow-wrap: anywhere;
 }
 
-.contact-links {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.contact-social-links {
+  margin-top: 20px;
 }
 
 .contact-icon-link,
 .contact-icon-link img {
   display: block;
-  width: 21px;
-  height: 21px;
+  width: 28px;
+  height: 28px;
 }
 
 .contact-icon-link {
-  flex: 0 0 21px;
+  width: fit-content;
   line-height: 0;
   transition: transform 120ms ease;
 }
@@ -893,24 +891,36 @@ li::marker {
   display: flex;
   min-width: 0;
   flex: 1 1 0;
-  align-items: center;
-  gap: 12px;
-  padding: 11px;
-  border: 1px solid #161b22;
+  align-items: stretch;
+  gap: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(22, 27, 34, 0.18);
   border-radius: 6px;
   background: transparent;
   text-align: left;
 }
 
+.portfolio-map .project-icon-link {
+  display: block;
+  width: 86px;
+  flex: 0 0 86px;
+  align-self: stretch;
+}
+
 .portfolio-map .project-icon {
-  width: 58px;
-  height: 58px;
-  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  min-height: 86px;
+  border-radius: 5px 0 0 5px;
+  object-fit: cover;
   box-shadow: none;
 }
 
 .portfolio-map .project-copy {
+  justify-content: center;
   align-items: flex-start;
+  padding: 9px 11px;
   text-align: left;
 }
 
@@ -955,17 +965,27 @@ li::marker {
   flex: 1 1 0;
   align-items: center;
   padding: 11px;
-  border: 1px solid #161b22;
+  border: 1px solid rgba(22, 27, 34, 0.18);
   border-radius: 6px;
   background: transparent;
   text-align: center;
 }
 
 .portfolio-map .prototype-count {
-  margin-bottom: 3px;
+  margin-bottom: 1px;
   color: var(--muted);
   font-size: 12px;
   font-weight: 650;
+}
+
+.portfolio-map .prototype-qualifier {
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  text-transform: uppercase;
 }
 
 .portfolio-map .experience-summary,
@@ -993,17 +1013,29 @@ li::marker {
   justify-content: flex-start;
   gap: 4px 10px;
   padding: 11px;
-  border: 1px solid #161b22;
+  border: 1px solid rgba(22, 27, 34, 0.18);
   border-radius: 6px;
   font-size: 14px;
   text-align: left;
 }
 
 .portfolio-map .mini-project > b {
-  width: auto;
+  width: 100%;
   padding-left: 0;
   color: var(--muted);
   font-weight: 600;
+}
+
+.portfolio-map .mini-project-stacked {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.portfolio-map .mini-project small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.3;
 }
 
 .portfolio-map .mini-project-list {
@@ -1020,7 +1052,7 @@ li::marker {
   align-items: flex-start;
   gap: 3px;
   padding: 11px;
-  border: 1px solid #161b22;
+  border: 1px solid rgba(22, 27, 34, 0.18);
   border-radius: 6px;
   text-align: left;
 }

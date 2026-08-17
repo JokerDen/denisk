@@ -134,7 +134,7 @@ description: Senior Unity development for teams building, releasing, and support
       <article class="experience-card experience-white-room">
         <header class="experience-header">
           <div>
-            <h3>White Room Games / Fun-To-Mass</h3>
+            <h3>Fun-To-Mass</h3>
             <p class="experience-role">Lead Unity Developer <span class="experience-years">2018–2022</span></p>
           </div>
         </header>
@@ -166,6 +166,7 @@ description: Senior Unity development for teams building, releasing, and support
           </div>
           <div class="prototype-project">
             <span class="prototype-count">dozens</span>
+            <span class="prototype-qualifier">of great</span>
             <strong>Hyper-Casual prototypes</strong>
           </div>
         </div>
@@ -182,7 +183,7 @@ description: Senior Unity development for teams building, releasing, and support
             <p class="experience-role">Flash Developer</p>
           </div>
         </header>
-        <div class="mini-project"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
+        <div class="mini-project mini-project-stacked"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
         <p class="experience-summary">Live support and release management for an external studio.</p>
       </article>
 
@@ -196,9 +197,9 @@ description: Senior Unity development for teams building, releasing, and support
             <p class="experience-role">UI Technical Artist <span class="experience-years">2016–2017</span></p>
           </div>
         </header>
-        <div class="mini-project mini-project-with-image">
-          <img src="{{ '/assets/portfolio/armored-warfare.png' | relative_url }}" alt="Armored Warfare">
-          <span><strong>Armored Warfare</strong><small>PS4 port · My.Games / Obsidian</small></span>
+        <div class="mini-project mini-project-stacked">
+          <strong>Armored Warfare</strong>
+          <small>PS4 port · My.Games / Obsidian</small>
         </div>
         <p class="experience-summary">Console UI integration with ActionScript and Scaleform.</p>
       </article>
@@ -231,9 +232,9 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-igaming experience-card-compact">
         <header class="experience-header">
-          <div><h3>iGaming</h3><p class="experience-role">Developer</p></div>
+          <div><h3>iGaming</h3><p class="experience-role">Developer <span class="experience-years">2+ years</span></p></div>
         </header>
-        <p class="igaming-tenure"><strong>2+ years</strong> developing commercial iGaming products.</p>
+        <p class="experience-summary">Commercial iGaming product development.</p>
       </article>
     </div>
   </div>
@@ -289,8 +290,8 @@ description: Senior Unity development for teams building, releasing, and support
   <div class="section-inner">
     <h2>Contact</h2>
     <p>Get in touch — let’s discuss about the project, scope, timing, and budget.</p>
-    <p class="contact-links">
-      <a href="mailto:contact@denisk.io">contact@denisk.io</a>
+    <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
+    <p class="contact-social-links">
       <a class="contact-icon-link" href="https://www.linkedin.com/in/denis-kazantsev-27487178/" target="_blank" rel="noopener noreferrer" aria-label="Denis Kazantsev on LinkedIn" title="LinkedIn">
         <img src="{{ '/assets/portfolio/linkedin.svg' | relative_url }}" alt="">
       </a>
