@@ -175,17 +175,21 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: var(--ink);
+  padding: 6px 11px;
+  border: 1px solid #b8d9c3;
+  border-radius: 999px;
+  background: #eef8f1;
+  color: #17683a;
   font-size: clamp(20px, 2vw, 26px);
   font-weight: 750;
-  line-height: 1.55;
+  line-height: 1.2;
 }
 
 .availability-dot {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--ink);
+  background: #258b50;
 }
 
 .hero-location {
