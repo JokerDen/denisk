@@ -7,16 +7,16 @@ description: Senior Unity development for teams building, releasing, and support
 <section class="hero" id="top">
   <div class="section-inner">
     <h1>Senior Game Developer</h1>
-    <div class="hero-meta" aria-label="Work availability and location">
-      <span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span>
-      <span class="hero-location">Rotterdam, Netherlands</span>
-    </div>
     <p class="lead">I help teams develop and operate Unity games</p>
     <ul class="hero-list">
       <li>Production, growth &amp; prototyping</li>
       <li>Mobile, Desktop, WebGL &amp; cross-platform delivery</li>
       <li>Contract, freelance &amp; full-time</li>
     </ul>
+    <div class="hero-meta" aria-label="Work availability and location">
+      <span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span>
+      <span class="hero-location">Rotterdam, Netherlands | Remote</span>
+    </div>
   </div>
 </section>
 
@@ -137,6 +137,9 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-white-room">
         <header class="experience-header">
+          <span class="company-logo company-logo-image">
+            <img src="{{ '/assets/portfolio/company-funtomass.png' | relative_url }}" alt="Fun-To-Mass">
+          </span>
           <div>
             <h3>Lead Unity Developer</h3>
             <p class="experience-role">Fun-To-Mass &nbsp;•&nbsp; 2018–2022</p>
