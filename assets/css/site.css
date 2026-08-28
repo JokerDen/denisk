@@ -163,14 +163,6 @@ h1 {
   font-weight: 760;
 }
 
-.hero-meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px 16px;
-  margin-top: 30px;
-}
-
 .availability-status {
   display: inline-flex;
   align-items: center;
@@ -192,11 +184,9 @@ h1 {
   background: #258b50;
 }
 
-.hero-location {
-  color: var(--muted);
-  font-size: clamp(20px, 2vw, 26px);
-  font-weight: 550;
-  line-height: 1.55;
+.availability-heading {
+  font-size: 0;
+  line-height: 1;
 }
 
 h2 {
@@ -1249,7 +1239,6 @@ strong {
 
   .contact-line,
   .availability-status,
-  .hero-location,
   ul,
   .contact p {
     font-size: 18px;

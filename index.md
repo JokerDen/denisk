@@ -13,10 +13,6 @@ description: Senior Unity development for teams building, releasing, and support
       <li>Mobile, Desktop, WebGL &amp; cross-platform delivery</li>
       <li>Contract, freelance &amp; full-time</li>
     </ul>
-    <div class="hero-meta" aria-label="Work availability and location">
-      <span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span>
-      <span class="hero-location">Rotterdam, Netherlands | Remote</span>
-    </div>
   </div>
 </section>
 
@@ -243,8 +239,8 @@ description: Senior Unity development for teams building, releasing, and support
 
 <section id="availability">
   <div class="section-inner">
-    <h2>Availability</h2>
-    <p class="section-lead">Netherlands-based, available for European and International hire.</p>
+    <h2 class="availability-heading"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></h2>
+    <p class="section-lead">Based in Rotterdam, Netherlands — available for European and international hire.</p>
     <ul>
       <li>Freelance tasks</li>
       <li>Part-time contract</li>
