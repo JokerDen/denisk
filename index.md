@@ -7,9 +7,13 @@ description: Senior Unity development for teams building, releasing, and support
 <section class="hero" id="top">
   <div class="section-inner">
     <h1>Senior Game Developer</h1>
+    <div class="hero-meta" aria-label="Work availability and location">
+      <span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span>
+      <span class="hero-location">Rotterdam, Netherlands</span>
+    </div>
     <p class="lead">I help teams develop and operate Unity games</p>
     <ul class="hero-list">
-      <li>Live games, prototypes &amp; production support</li>
+      <li>Production, growth &amp; prototyping</li>
       <li>Mobile, Desktop, WebGL &amp; cross-platform delivery</li>
       <li>Contract, freelance &amp; full-time</li>
     </ul>
