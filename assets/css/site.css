@@ -490,6 +490,10 @@ li::marker {
   background: #000000;
 }
 
+.company-logo-inverted img {
+  filter: invert(1);
+}
+
 .company-logo-text {
   font-size: 18px;
   font-weight: 850;

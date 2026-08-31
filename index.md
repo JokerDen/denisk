@@ -133,7 +133,7 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-white-room">
         <header class="experience-header">
-          <span class="company-logo company-logo-image">
+          <span class="company-logo company-logo-image company-logo-dark company-logo-inverted">
             <img src="{{ '/assets/portfolio/company-funtomass.png' | relative_url }}" alt="Fun-To-Mass">
           </span>
           <div>
