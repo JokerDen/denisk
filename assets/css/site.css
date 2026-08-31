@@ -485,13 +485,13 @@ li::marker {
   padding: 3px;
 }
 
+.company-logo-image.company-logo-full img {
+  padding: 0;
+}
+
 .company-logo-dark {
   border-color: #000000;
   background: #000000;
-}
-
-.company-logo-inverted img {
-  filter: invert(1);
 }
 
 .company-logo-text {

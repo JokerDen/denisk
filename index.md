@@ -133,9 +133,9 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-white-room">
         <header class="experience-header">
-          <span class="company-logo company-logo-image company-logo-dark company-logo-inverted">
+          <a class="company-logo company-logo-image company-logo-full" href="http://fun-to-mass.com/" target="_blank" rel="noopener noreferrer" aria-label="Fun-To-Mass website">
             <img src="{{ '/assets/portfolio/company-funtomass.png' | relative_url }}" alt="Fun-To-Mass">
-          </span>
+          </a>
           <div>
             <h3>Lead Unity Developer</h3>
             <p class="experience-role">Fun-To-Mass &nbsp;•&nbsp; 2018–2022</p>
