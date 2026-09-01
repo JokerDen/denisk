@@ -1190,6 +1190,51 @@ strong {
   font-weight: 700;
 }
 
+.case-study {
+  min-height: calc(100svh - var(--header-height));
+  padding: 88px 0 104px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.case-study-inner {
+  width: min(100% - 44px, 780px);
+  margin-inline: auto;
+}
+
+.case-study-header {
+  margin-bottom: 42px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.case-study h1 {
+  max-width: 720px;
+  font-size: clamp(42px, 6vw, 64px);
+  line-height: 1.08;
+}
+
+.case-study-subtitle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 9px;
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 17px;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.case-study-body {
+  color: #27313c;
+  font-size: 20px;
+  line-height: 1.78;
+}
+
+.case-study-body p {
+  margin-bottom: 1.55em;
+}
+
 .site-footer {
   padding-block: 28px;
   color: var(--muted);
@@ -1250,6 +1295,20 @@ strong {
 
   .portfolio {
     padding-block: 48px;
+  }
+
+  .case-study {
+    padding: 54px 0 68px;
+  }
+
+  .case-study-header {
+    margin-bottom: 32px;
+    padding-bottom: 28px;
+  }
+
+  .case-study-body {
+    font-size: 18px;
+    line-height: 1.72;
   }
 
   .portfolio .section-inner {

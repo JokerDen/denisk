@@ -16,12 +16,18 @@
             <span class="site-subtitle">DenisK Interactive</span>
           </span>
         </a>
+        {% if page.article %}
+        <nav aria-label="Article navigation">
+          <a href="{{ '/' | relative_url }}">Back to portfolio</a>
+        </nav>
+        {% else %}
         <nav aria-label="Main navigation">
           <a href="#portfolio">Portfolio</a>
           <a href="#availability">Availability</a>
           <a href="#expertise">Expertise</a>
           <a href="#contact">Contact</a>
         </nav>
+        {% endif %}
       </div>
     </header>
 
