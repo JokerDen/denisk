@@ -14,9 +14,8 @@ description: Senior Unity development for teams building, releasing, and support
       <li>Contract, freelance &amp; full-time</li>
     </ul>
 
-    <div class="featured-work" aria-labelledby="featured-work-title">
-      <h2 id="featured-work-title">Case studies</h2>
-      <div class="featured-work-list">
+    <div class="featured-work">
+      <div class="featured-work-list featured-work-list--scrollbar-hidden">
         <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
           <span class="featured-work-copy">
             <strong>From Prototypes to a Hit Game</strong>

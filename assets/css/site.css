@@ -140,8 +140,9 @@ section:nth-of-type(even) {
 }
 
 .hero {
-  padding-top: clamp(88px, 11vw, 132px);
-  padding-bottom: clamp(64px, 8vw, 96px);
+  min-height: calc(100svh - var(--header-height));
+  align-items: center;
+  padding-block: clamp(72px, 9vw, 112px);
 }
 
 .eyebrow {
@@ -305,17 +306,21 @@ li::marker {
   margin-top: clamp(56px, 8vw, 88px);
 }
 
-.featured-work h2 {
-  margin-bottom: 18px;
-  font-size: clamp(24px, 3vw, 34px);
-}
-
 .featured-work-list {
   display: flex;
   gap: 14px;
   overflow-x: auto;
   padding: 1px 1px 10px;
   scrollbar-width: thin;
+}
+
+/* Remove this modifier when the horizontal scrollbar should be visible again. */
+.featured-work-list--scrollbar-hidden {
+  scrollbar-width: none;
+}
+
+.featured-work-list--scrollbar-hidden::-webkit-scrollbar {
+  display: none;
 }
 
 .featured-work-card {
@@ -1260,6 +1265,11 @@ strong {
   font-size: clamp(20px, 2vw, 26px);
 }
 
+.contact {
+  min-height: min(680px, calc(100svh - var(--header-height)));
+  align-items: center;
+}
+
 .contact a {
   font-weight: 700;
 }
@@ -1347,8 +1357,7 @@ strong {
   }
 
   .hero {
-    padding-top: 64px;
-    padding-bottom: 56px;
+    padding-block: 56px;
   }
 
   .featured-work {
