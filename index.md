@@ -13,6 +13,19 @@ description: Senior Unity development for teams building, releasing, and support
       <li>Mobile, Desktop, WebGL &amp; cross-platform delivery</li>
       <li>Contract, freelance &amp; full-time</li>
     </ul>
+
+    <div class="featured-work" aria-labelledby="featured-work-title">
+      <h2 id="featured-work-title">Case studies</h2>
+      <div class="featured-work-list">
+        <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
+          <span class="featured-work-copy">
+            <strong>From Prototypes to a Hit Game</strong>
+            <span>How rapid hyper-casual prototyping evolved into a long-running commercial mobile game.</span>
+          </span>
+          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 

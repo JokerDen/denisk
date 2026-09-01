@@ -115,17 +115,15 @@ nav a:hover {
 }
 
 .content {
-  scroll-snap-type: y proximity;
+  min-height: 0;
 }
 
 section {
   display: grid;
-  min-height: calc(100svh - var(--header-height));
-  align-items: center;
+  align-items: start;
   padding: 72px 0;
   border-bottom: 1px solid var(--line);
   background: var(--paper);
-  scroll-snap-align: start;
 }
 
 section:nth-of-type(even) {
@@ -139,6 +137,11 @@ section:nth-of-type(even) {
 
 .hero .section-inner {
   max-width: 1060px;
+}
+
+.hero {
+  padding-top: clamp(88px, 11vw, 132px);
+  padding-bottom: clamp(64px, 8vw, 96px);
 }
 
 .eyebrow {
@@ -298,6 +301,78 @@ li::marker {
   margin-top: 34px;
 }
 
+.featured-work {
+  margin-top: clamp(56px, 8vw, 88px);
+}
+
+.featured-work h2 {
+  margin-bottom: 18px;
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.featured-work-list {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  padding: 1px 1px 10px;
+  scrollbar-width: thin;
+}
+
+.featured-work-card {
+  display: flex;
+  flex: 0 0 min(100%, 520px);
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 24px;
+  border: 1px solid #161b22;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+.featured-work-card:hover {
+  background: #161b22;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.featured-work-card:hover .featured-work-copy strong,
+.featured-work-card:hover .featured-work-copy > span {
+  color: #ffffff;
+}
+
+.featured-work-copy,
+.featured-work-copy strong,
+.featured-work-copy > span {
+  display: block;
+}
+
+.featured-work-copy strong {
+  font-size: clamp(19px, 2vw, 23px);
+  line-height: 1.25;
+}
+
+.featured-work-copy > span {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.featured-work-arrow {
+  flex: 0 0 auto;
+  font-size: 30px;
+  line-height: 1;
+  transition: transform 140ms ease;
+}
+
+.featured-work-card:hover .featured-work-arrow {
+  transform: translateX(4px);
+}
+
 .expertise-list {
   display: grid;
   gap: 22px;
@@ -323,7 +398,6 @@ li::marker {
 }
 
 .portfolio {
-  min-height: auto;
   align-items: start;
   padding-block: 72px 84px;
 }
@@ -1269,8 +1343,21 @@ strong {
   }
 
   section {
-    min-height: calc(100svh - var(--header-height));
     padding: 42px 0;
+  }
+
+  .hero {
+    padding-top: 64px;
+    padding-bottom: 56px;
+  }
+
+  .featured-work {
+    margin-top: 48px;
+  }
+
+  .featured-work-card {
+    gap: 16px;
+    padding: 18px;
   }
 
   h1 {
