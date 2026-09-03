@@ -305,7 +305,7 @@ description: Senior Unity development for teams building, releasing, and support
         <img src="{{ '/assets/portfolio/linkedin.svg' | relative_url }}" alt="">
       </a>
       <span class="contact-link-separator" aria-hidden="true">/</span>
-      <a class="contact-cv-link" href="https://drive.google.com/file/d/1a8a3UxicCgPbDYsgkuCztIYjkrMfm5PJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
+      <a class="contact-cv-link" href="https://drive.google.com/file/d/1g98b4UN1PHDdomWJ3zL3ed09sKaGaU2E/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
     </p>
   </div>
 </section>
