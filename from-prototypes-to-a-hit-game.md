@@ -10,7 +10,8 @@ article: true
   <div class="case-study-inner">
     <header class="case-study-header">
       <h1>From Prototypes to a Hit Game</h1>
-      <p class="case-study-subtitle">Lead Unity Developer <span aria-hidden="true">•</span> Fun-To-Mass Games <span aria-hidden="true">•</span> 2018-2022</p>
+      <p class="case-study-role">Lead Unity Developer</p>
+      <p class="case-study-subtitle">Fun-To-Mass Games <span aria-hidden="true">•</span> 2018-2022</p>
     </header>
 
     <div class="case-study-body">
