@@ -140,9 +140,9 @@ section:nth-of-type(even) {
 }
 
 .hero {
-  min-height: calc(100svh - var(--header-height));
+  min-height: 720px;
   align-items: center;
-  padding-block: clamp(72px, 9vw, 112px);
+  padding-block: 72px;
 }
 
 .eyebrow {
@@ -1266,7 +1266,7 @@ strong {
 }
 
 .contact {
-  min-height: min(680px, calc(100svh - var(--header-height)));
+  min-height: 680px;
   align-items: center;
 }
 
@@ -1361,7 +1361,12 @@ strong {
   }
 
   .hero {
+    min-height: 640px;
     padding-block: 56px;
+  }
+
+  .contact {
+    min-height: 520px;
   }
 
   .featured-work {
