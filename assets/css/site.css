@@ -142,7 +142,8 @@ section:nth-of-type(even) {
 .hero {
   min-height: 720px;
   align-items: center;
-  padding-block: 320px 192px;
+  padding-top: 192px;
+  padding-bottom: 96px;
 }
 
 .eyebrow {
@@ -303,7 +304,7 @@ li::marker {
 }
 
 .featured-work {
-  margin-top: 192px;
+  margin-top: 96px;
 }
 
 .featured-work-list {
@@ -1362,7 +1363,8 @@ strong {
 
   .hero {
     min-height: 640px;
-    padding-block: 208px 144px;
+    padding-top: 120px;
+    padding-bottom: 72px;
   }
 
   .contact {
@@ -1370,7 +1372,7 @@ strong {
   }
 
   .featured-work {
-    margin-top: 128px;
+    margin-top: 64px;
   }
 
   .featured-work-card {
