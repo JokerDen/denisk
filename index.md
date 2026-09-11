@@ -16,6 +16,13 @@ description: Senior Unity development for teams building, releasing, and support
 
     <div class="featured-work">
       <div class="featured-work-list featured-work-list--scrollbar-hidden">
+        <a class="featured-work-card" href="#contact">
+          <span class="featured-work-copy">
+            <strong class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</strong>
+            <span>Rotterdam, Netherlands | Remote</span>
+          </span>
+          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
+        </a>
         <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
           <span class="featured-work-copy">
             <strong>From Prototypes to a Hit Game</strong>
@@ -194,6 +201,13 @@ description: Senior Unity development for teams building, releasing, and support
         <p class="experience-summary">Console UI integration with ActionScript and Scaleform.</p>
       </article>
 
+      <article class="experience-card experience-igaming experience-card-compact">
+        <header class="experience-header">
+          <div><h3>iGaming</h3><p class="experience-role">Developer &nbsp;•&nbsp; 2+ years</p></div>
+        </header>
+        <p class="experience-summary">Development of multiple commercial iGaming products.</p>
+      </article>
+
       <article class="experience-card experience-flash experience-card-compact">
         <header class="experience-header">
           <div>
@@ -208,7 +222,7 @@ description: Senior Unity development for teams building, releasing, and support
           <li><strong>Evilibrium</strong><small>Mobile</small></li>
           <li><strong>Puzzle games</strong><small>KakaoTalk</small></li>
         </ul>
-        <p class="experience-summary">Live support and release management for an external studio.</p>
+        <p class="experience-summary">I developed and supported commercial mobile, social, and web games, including RPG, puzzle, 4X, and solitaire titles. My work covered social platform API integrations, mobile adaptation, live support, and release management, using ActionScript, AIR, Flex, and Starling.</p>
       </article>
 
       <article class="experience-card experience-indie">
@@ -221,28 +235,7 @@ description: Senior Unity development for teams building, releasing, and support
         <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
         <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
       </article>
-
-      <article class="experience-card experience-igaming experience-card-compact">
-        <header class="experience-header">
-          <div><h3>iGaming</h3><p class="experience-role">Developer &nbsp;•&nbsp; 2+ years</p></div>
-        </header>
-        <p class="experience-summary">Development of multiple commercial iGaming products.</p>
-      </article>
     </div>
-  </div>
-</section>
-
-<section id="availability">
-  <div class="section-inner">
-    <h2 class="availability-heading"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></h2>
-    <p class="section-lead">Based in Rotterdam, Netherlands — available for European and international hire.</p>
-    <ul>
-      <li>Freelance tasks</li>
-      <li>Part-time contract</li>
-      <li>Full-time contract / hire</li>
-      <li>Project-based work</li>
-    </ul>
-    <p class="supporting-copy">Rates depend on scope, involvement, duration, and responsibility level.</p>
   </div>
 </section>
 
@@ -281,6 +274,17 @@ description: Senior Unity development for teams building, releasing, and support
 <section class="contact" id="contact">
   <div class="section-inner">
     <h2>Contact</h2>
+    <div class="contact-availability" id="availability">
+      <p class="availability-heading"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></p>
+      <p class="section-lead">Based in Rotterdam, Netherlands — available for European and international hire.</p>
+      <ul>
+        <li>Freelance tasks</li>
+        <li>Part-time contract</li>
+        <li>Full-time contract / hire</li>
+        <li>Project-based work</li>
+      </ul>
+      <p class="supporting-copy">Rates depend on scope, involvement, duration, and responsibility level.</p>
+    </div>
     <p>Get in touch — let’s discuss about the project, scope, timing, and budget.</p>
     <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
     <p class="contact-social-links">

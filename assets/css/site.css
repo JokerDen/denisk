@@ -244,6 +244,14 @@ ul:last-child {
   margin-top: 20px;
 }
 
+.contact-availability {
+  margin-bottom: 36px;
+}
+
+.contact-availability .availability-heading {
+  margin-bottom: 28px;
+}
+
 .contact-icon-link {
   display: grid;
   width: 38px;
@@ -334,7 +342,8 @@ li::marker {
 
 .featured-work-card {
   display: flex;
-  flex: 0 0 min(100%, 520px);
+  flex: 0 0 min(100%, 460px);
+  min-height: 190px;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
@@ -353,7 +362,7 @@ li::marker {
   transform: translateY(-2px);
 }
 
-.featured-work-card:hover .featured-work-copy strong,
+.featured-work-card:hover .featured-work-copy strong:not(.availability-status),
 .featured-work-card:hover .featured-work-copy > span {
   color: #ffffff;
 }
@@ -367,6 +376,11 @@ li::marker {
 .featured-work-copy strong {
   font-size: clamp(19px, 2vw, 23px);
   line-height: 1.25;
+}
+
+.featured-work-copy .availability-status {
+  display: inline-flex;
+  font-size: 20px;
 }
 
 .featured-work-copy > span {
@@ -441,8 +455,9 @@ li::marker {
   grid-template-areas:
     "voodoo voodoo voodoo voodoo voodoo voodoo"
     "white white white white white white"
-    "saber saber flash flash flash flash"
-    "indie indie indie indie igaming igaming";
+    "saber saber saber igaming igaming igaming"
+    "flash flash flash flash flash flash"
+    "indie indie indie indie indie indie";
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
   margin-top: 36px;
@@ -1199,6 +1214,14 @@ li::marker {
   text-align: left;
 }
 
+.portfolio-map .experience-flash .mini-project-list {
+  flex-wrap: nowrap;
+}
+
+.portfolio-map .experience-flash .mini-project-list strong {
+  white-space: normal;
+}
+
 .portfolio-map .mini-project-list strong {
   font-weight: 650;
   white-space: nowrap;
@@ -1335,6 +1358,10 @@ strong {
 }
 
 @media (max-width: 720px) {
+  .portfolio-map .experience-flash .mini-project-list {
+    flex-wrap: wrap;
+  }
+
   body {
     font-size: 16px;
   }
@@ -1378,6 +1405,10 @@ strong {
   .featured-work-card {
     gap: 16px;
     padding: 18px;
+  }
+
+  .featured-work-copy .availability-status {
+    font-size: 16px;
   }
 
   h1 {
@@ -1435,9 +1466,9 @@ strong {
       "voodoo"
       "white"
       "saber"
+      "igaming"
       "flash"
-      "indie"
-      "igaming";
+      "indie";
     grid-template-columns: minmax(0, 1fr);
     margin-top: 26px;
   }
