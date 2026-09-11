@@ -441,9 +441,8 @@ li::marker {
   grid-template-areas:
     "voodoo voodoo voodoo voodoo voodoo voodoo"
     "white white white white white white"
-    "saber saber saber ilogos ilogos ilogos"
-    "kosmos kosmos ifree ifree igaming igaming"
-    "indie indie indie indie indie indie";
+    "saber saber flash flash flash flash"
+    "indie indie indie indie igaming igaming";
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
   margin-top: 36px;
@@ -492,23 +491,13 @@ li::marker {
   border-top-color: #f2542d;
 }
 
-.experience-ilogos {
-  grid-area: ilogos;
+.experience-flash {
+  grid-area: flash;
   border-top-color: #2d78c4;
 }
 
 .experience-saber {
   grid-area: saber;
-}
-
-.experience-kosmos {
-  grid-area: kosmos;
-  border-top-color: #2665a8;
-}
-
-.experience-ifree {
-  grid-area: ifree;
-  border-top-color: #54d6ca;
 }
 
 .experience-igaming {
@@ -1174,7 +1163,6 @@ li::marker {
   gap: 3px;
 }
 
-.portfolio-map .experience-ilogos .mini-project,
 .portfolio-map .experience-saber .mini-project {
   width: max-content;
 }
@@ -1184,6 +1172,10 @@ li::marker {
   font-size: 13px;
   line-height: 1.3;
   white-space: nowrap;
+}
+
+.portfolio-map .experience-saber .mini-project small {
+  white-space: normal;
 }
 
 .portfolio-map .mini-project-list {
@@ -1443,11 +1435,9 @@ strong {
       "voodoo"
       "white"
       "saber"
-      "ilogos"
-      "kosmos"
-      "ifree"
-      "igaming"
-      "indie";
+      "flash"
+      "indie"
+      "igaming";
     grid-template-columns: minmax(0, 1fr);
     margin-top: 26px;
   }
@@ -1478,16 +1468,6 @@ strong {
 }
 
 @media (min-width: 721px) and (max-width: 1080px) {
-  .portfolio-map {
-    grid-template-areas:
-      "voodoo voodoo voodoo voodoo voodoo voodoo"
-      "white white white white white white"
-      "saber saber saber ilogos ilogos ilogos"
-      "kosmos kosmos ifree ifree igaming igaming"
-      "indie indie indie indie indie indie";
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
   .project-grid-three {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
