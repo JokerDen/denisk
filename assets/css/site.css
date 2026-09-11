@@ -1,7 +1,6 @@
 :root {
   --bg: #f6f7f9;
   --paper: #ffffff;
-  --band: #eef2f6;
   --ink: #14181f;
   --muted: #5d6773;
   --line: #d7dde4;
@@ -132,10 +131,6 @@ section {
   padding: 72px 0;
   border-bottom: 1px solid var(--line);
   background: var(--paper);
-}
-
-section:nth-of-type(even) {
-  background: var(--band);
 }
 
 .section-inner {
@@ -342,12 +337,12 @@ li::marker {
 
 .featured-work-card {
   display: flex;
-  flex: 0 0 min(100%, 460px);
-  min-height: 190px;
+  flex: 0 0 min(100%, 400px);
+  min-height: 150px;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  padding: 22px 24px;
+  gap: 16px;
+  padding: 18px 20px;
   border: 1px solid #161b22;
   border-radius: 6px;
   background: transparent;
@@ -455,8 +450,8 @@ li::marker {
   grid-template-areas:
     "voodoo voodoo voodoo voodoo voodoo voodoo"
     "white white white white white white"
-    "saber saber saber igaming igaming igaming"
-    "flash flash flash flash flash flash"
+    "saber saber saber ilogos ilogos ilogos"
+    "kosmos kosmos ifree ifree igaming igaming"
     "indie indie indie indie indie indie";
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
@@ -506,13 +501,23 @@ li::marker {
   border-top-color: #f2542d;
 }
 
-.experience-flash {
-  grid-area: flash;
+.experience-ilogos {
+  grid-area: ilogos;
   border-top-color: #2d78c4;
 }
 
 .experience-saber {
   grid-area: saber;
+}
+
+.experience-kosmos {
+  grid-area: kosmos;
+  border-top-color: #2665a8;
+}
+
+.experience-ifree {
+  grid-area: ifree;
+  border-top-color: #54d6ca;
 }
 
 .experience-igaming {
@@ -1178,6 +1183,7 @@ li::marker {
   gap: 3px;
 }
 
+.portfolio-map .experience-ilogos .mini-project,
 .portfolio-map .experience-saber .mini-project {
   width: max-content;
 }
@@ -1187,10 +1193,6 @@ li::marker {
   font-size: 13px;
   line-height: 1.3;
   white-space: nowrap;
-}
-
-.portfolio-map .experience-saber .mini-project small {
-  white-space: normal;
 }
 
 .portfolio-map .mini-project-list {
@@ -1212,14 +1214,6 @@ li::marker {
   border: 1px solid rgba(22, 27, 34, 0.18);
   border-radius: 6px;
   text-align: left;
-}
-
-.portfolio-map .experience-flash .mini-project-list {
-  flex-wrap: nowrap;
-}
-
-.portfolio-map .experience-flash .mini-project-list strong {
-  white-space: normal;
 }
 
 .portfolio-map .mini-project-list strong {
@@ -1358,10 +1352,6 @@ strong {
 }
 
 @media (max-width: 720px) {
-  .portfolio-map .experience-flash .mini-project-list {
-    flex-wrap: wrap;
-  }
-
   body {
     font-size: 16px;
   }
@@ -1466,8 +1456,10 @@ strong {
       "voodoo"
       "white"
       "saber"
+      "ilogos"
+      "kosmos"
+      "ifree"
       "igaming"
-      "flash"
       "indie";
     grid-template-columns: minmax(0, 1fr);
     margin-top: 26px;
@@ -1499,6 +1491,16 @@ strong {
 }
 
 @media (min-width: 721px) and (max-width: 1080px) {
+  .portfolio-map {
+    grid-template-areas:
+      "voodoo voodoo voodoo voodoo voodoo voodoo"
+      "white white white white white white"
+      "saber saber saber ilogos ilogos ilogos"
+      "kosmos kosmos ifree ifree igaming igaming"
+      "indie indie indie indie indie indie";
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
   .project-grid-three {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }

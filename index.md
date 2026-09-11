@@ -139,6 +139,17 @@ description: Senior Unity development for teams building, releasing, and support
         </div>
       </article>
 
+      <article class="experience-card experience-indie">
+        <header class="experience-header">
+          <div>
+            <h3>Independent</h3>
+            <p class="experience-role">Game Developer &nbsp;•&nbsp; 2011–2026</p>
+          </div>
+        </header>
+        <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
+        <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
+      </article>
+
       <article class="experience-card experience-white-room">
         <header class="experience-header">
           <a class="company-logo company-logo-image company-logo-full" href="http://fun-to-mass.com/" target="_blank" rel="noopener noreferrer" aria-label="Fun-To-Mass website">
@@ -184,6 +195,20 @@ description: Senior Unity development for teams building, releasing, and support
         <p class="experience-summary">At a mobile gaming startup, I developed and supported our major hit games from first prototype through full production, reaching millions of installs.</p>
       </article>
 
+      <article class="experience-card experience-ilogos experience-card-compact">
+        <header class="experience-header">
+          <a class="company-logo company-logo-image" href="https://ilogos.biz/" target="_blank" rel="noopener noreferrer" aria-label="iLogos website">
+            <img src="{{ '/assets/portfolio/ilogos_logo.jpeg' | relative_url }}" alt="iLogos">
+          </a>
+          <div>
+            <h3>Flash Developer</h3>
+            <p class="experience-role">iLogos &nbsp;•&nbsp; 2017–2018</p>
+          </div>
+        </header>
+        <div class="mini-project mini-project-stacked"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
+        <p class="experience-summary">Live support and release management for an external studio.</p>
+      </article>
+
       <article class="experience-card experience-saber experience-card-compact">
         <header class="experience-header">
           <a class="company-logo company-logo-image company-logo-dark" href="https://saber.games/" target="_blank" rel="noopener noreferrer" aria-label="Saber Interactive website">
@@ -201,39 +226,31 @@ description: Senior Unity development for teams building, releasing, and support
         <p class="experience-summary">Console UI integration with ActionScript and Scaleform.</p>
       </article>
 
+      <article class="experience-card experience-kosmos experience-card-compact">
+        <header class="experience-header">
+          <div><h3>Programmer</h3><p class="experience-role">Kosmos &nbsp;•&nbsp; 2015–2016</p></div>
+        </header>
+        <ul class="mini-project-list">
+          <li><strong>Solitaire Social</strong><small>Facebook</small></li>
+          <li><strong>Solitaire Dash</strong><small>Mobile</small></li>
+        </ul>
+      </article>
+
+      <article class="experience-card experience-ifree experience-card-compact">
+        <header class="experience-header">
+          <div><h3>Flash Developer</h3><p class="experience-role">i-Free &nbsp;•&nbsp; 2013–2014</p></div>
+        </header>
+        <ul class="mini-project-list">
+          <li><strong>Evilibrium</strong><small>Mobile</small></li>
+          <li><strong>Puzzle games</strong><small>KakaoTalk</small></li>
+        </ul>
+      </article>
+
       <article class="experience-card experience-igaming experience-card-compact">
         <header class="experience-header">
           <div><h3>iGaming</h3><p class="experience-role">Developer &nbsp;•&nbsp; 2+ years</p></div>
         </header>
         <p class="experience-summary">Development of multiple commercial iGaming products.</p>
-      </article>
-
-      <article class="experience-card experience-flash experience-card-compact">
-        <header class="experience-header">
-          <div>
-            <h3>Flash Developer</h3>
-            <p class="experience-role">iLogos, Kosmos, i-Free &nbsp;•&nbsp; 2011–2018</p>
-          </div>
-        </header>
-        <ul class="mini-project-list">
-          <li><strong>Android 4X Game</strong><small>1M+ installs</small></li>
-          <li><strong>Solitaire Social</strong><small>Facebook</small></li>
-          <li><strong>Solitaire Dash</strong><small>Mobile</small></li>
-          <li><strong>Evilibrium</strong><small>Mobile</small></li>
-          <li><strong>Puzzle games</strong><small>KakaoTalk</small></li>
-        </ul>
-        <p class="experience-summary">I developed and supported commercial mobile, social, and web games, including RPG, puzzle, 4X, and solitaire titles. My work covered social platform API integrations, mobile adaptation, live support, and release management, using ActionScript, AIR, Flex, and Starling.</p>
-      </article>
-
-      <article class="experience-card experience-indie">
-        <header class="experience-header">
-          <div>
-            <h3>Independent</h3>
-            <p class="experience-role">Game Developer &nbsp;•&nbsp; 2011–2026</p>
-          </div>
-        </header>
-        <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
-        <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
       </article>
     </div>
   </div>
