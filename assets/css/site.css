@@ -1,6 +1,7 @@
 :root {
   --bg: #f6f7f9;
   --paper: #ffffff;
+  --band: #eef2f6;
   --ink: #14181f;
   --muted: #5d6773;
   --line: #d7dde4;
@@ -133,6 +134,10 @@ section {
   background: var(--paper);
 }
 
+section:nth-of-type(even) {
+  background: var(--band);
+}
+
 .section-inner {
   width: min(100% - 44px, var(--max-width));
   margin-inline: auto;
@@ -243,8 +248,14 @@ ul:last-child {
   margin-bottom: 36px;
 }
 
-.contact-availability .availability-heading {
-  margin-bottom: 28px;
+.contact .availability-heading {
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.contact .availability-status {
+  font-size: 16px;
+  padding: 5px 10px;
 }
 
 .contact-icon-link {
@@ -315,37 +326,26 @@ li::marker {
 }
 
 .featured-work {
-  margin-top: 96px;
+  padding-block: 48px;
 }
 
 .featured-work-list {
-  display: flex;
-  gap: 14px;
-  overflow-x: auto;
-  padding: 1px 1px 10px;
-  scrollbar-width: thin;
-}
-
-/* Remove this modifier when the horizontal scrollbar should be visible again. */
-.featured-work-list--scrollbar-hidden {
-  scrollbar-width: none;
-}
-
-.featured-work-list--scrollbar-hidden::-webkit-scrollbar {
-  display: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 400px));
+  gap: 16px;
 }
 
 .featured-work-card {
   display: flex;
-  flex: 0 0 min(100%, 400px);
+  min-width: 0;
   min-height: 150px;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   padding: 18px 20px;
-  border: 1px solid #161b22;
+  border: 1px solid #c4ccd5;
   border-radius: 6px;
-  background: transparent;
+  background: var(--paper);
   color: var(--ink);
   text-decoration: none;
   transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
@@ -369,25 +369,30 @@ li::marker {
 }
 
 .featured-work-copy strong {
-  font-size: clamp(19px, 2vw, 23px);
-  line-height: 1.25;
+  font-size: 20px;
+  line-height: 1.3;
+  text-wrap: balance;
+}
+
+.featured-work-copy {
+  min-width: 0;
 }
 
 .featured-work-copy .availability-status {
   display: inline-flex;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .featured-work-copy > span {
-  margin-top: 7px;
+  margin-top: 10px;
   color: var(--muted);
   font-size: 15px;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .featured-work-arrow {
   flex: 0 0 auto;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1;
   transition: transform 140ms ease;
 }
@@ -1277,10 +1282,11 @@ strong {
   margin-top: 0;
 }
 
-.contact p {
+.contact p,
+.contact ul {
   max-width: none;
   color: var(--muted);
-  font-size: clamp(20px, 2vw, 26px);
+  font-size: clamp(18px, 1.6vw, 22px);
 }
 
 .contact {
@@ -1389,12 +1395,16 @@ strong {
   }
 
   .featured-work {
-    margin-top: 64px;
+    padding-block: 32px;
   }
 
   .featured-work-card {
     gap: 16px;
     padding: 18px;
+  }
+
+  .featured-work-list {
+    grid-template-columns: minmax(0, 400px);
   }
 
   .featured-work-copy .availability-status {

@@ -13,24 +13,26 @@ description: Senior Unity development for teams building, releasing, and support
       <li>Mobile, Desktop, WebGL &amp; cross-platform delivery</li>
       <li>Contract, freelance &amp; full-time</li>
     </ul>
+  </div>
+</section>
 
-    <div class="featured-work">
-      <div class="featured-work-list featured-work-list--scrollbar-hidden">
-        <a class="featured-work-card" href="#contact">
-          <span class="featured-work-copy">
-            <strong class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</strong>
-            <span>Rotterdam, Netherlands | Remote</span>
-          </span>
-          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
-        </a>
-        <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
-          <span class="featured-work-copy">
-            <strong>From Prototypes to a Hit Game</strong>
-            <span>How rapid hyper-casual prototyping evolved into a long-running commercial mobile game.</span>
-          </span>
-          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
-        </a>
-      </div>
+<section class="featured-work" aria-label="Availability and featured articles">
+  <div class="section-inner">
+    <div class="featured-work-list">
+      <a class="featured-work-card" href="#contact">
+        <span class="featured-work-copy">
+          <strong class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</strong>
+          <span>Rotterdam, Netherlands | Remote</span>
+        </span>
+        <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
+        <span class="featured-work-copy">
+          <strong>From Prototypes to a Hit Game</strong>
+          <span>How rapid hyper-casual prototyping evolved into a long-running commercial mobile game.</span>
+        </span>
+        <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
+      </a>
     </div>
   </div>
 </section>
@@ -292,17 +294,17 @@ description: Senior Unity development for teams building, releasing, and support
   <div class="section-inner">
     <h2>Contact</h2>
     <div class="contact-availability" id="availability">
-      <p class="availability-heading"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></p>
-      <p class="section-lead">Based in Rotterdam, Netherlands — available for European and international hire.</p>
+      <p>Based in Rotterdam, Netherlands — available for European and international hire.</p>
       <ul>
-        <li>Freelance tasks</li>
-        <li>Part-time contract</li>
         <li>Full-time contract / hire</li>
+        <li>Part-time contract</li>
         <li>Project-based work</li>
+        <li>Freelance tasks</li>
       </ul>
       <p class="supporting-copy">Rates depend on scope, involvement, duration, and responsibility level.</p>
     </div>
-    <p>Get in touch — let’s discuss about the project, scope, timing, and budget.</p>
+    <p class="availability-heading"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></p>
+    <p>Get in touch — let’s discuss the project, scope, timing, and budget.</p>
     <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
     <p class="contact-social-links">
       <a class="contact-icon-link" href="https://www.linkedin.com/in/denis-kazantsev-27487178/" target="_blank" rel="noopener noreferrer" aria-label="Denis Kazantsev on LinkedIn" title="LinkedIn">
