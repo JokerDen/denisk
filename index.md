@@ -13,26 +13,24 @@ description: Senior Unity development for teams building, releasing, and support
       <li>Mobile, Desktop, WebGL &amp; cross-platform delivery</li>
       <li>Contract, freelance &amp; full-time</li>
     </ul>
-  </div>
-</section>
 
-<section class="featured-work" aria-label="Availability and featured articles">
-  <div class="section-inner">
-    <div class="featured-work-list">
-      <a class="featured-work-card" href="#contact">
-        <span class="featured-work-copy">
-          <strong class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</strong>
-          <span>Rotterdam, Netherlands | Remote</span>
-        </span>
-        <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
-        <span class="featured-work-copy">
-          <strong>From Prototypes to a Hit Game</strong>
-          <span>How rapid hyper-casual prototyping evolved into a long-running commercial mobile game.</span>
-        </span>
-        <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
-      </a>
+    <div class="featured-work" aria-label="Availability and featured articles">
+      <div class="featured-work-list">
+        <a class="featured-work-card" href="#contact">
+          <span class="featured-work-copy">
+            <strong class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</strong>
+            <span>Rotterdam, Netherlands | Remote</span>
+          </span>
+          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
+          <span class="featured-work-copy">
+            <strong>From Prototypes to a Hit Game</strong>
+            <span>How rapid hyper-casual prototyping evolved into a long-running commercial mobile game.</span>
+          </span>
+          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -258,42 +256,11 @@ description: Senior Unity development for teams building, releasing, and support
   </div>
 </section>
 
-<section id="expertise">
-  <div class="section-inner">
-    <h2>Expertise</h2>
-    <ul class="expertise-list">
-      <li>
-        <strong>Generalist Unity Development</strong>
-        <span>Gameplay, UI, meta, tools, SDKs, integrations, builds, and production features across different project stages.</span>
-      </li>
-      <li>
-        <strong>Feature &amp; Area Ownership</strong>
-        <span>Ownership of features, systems, modules, or project areas from implementation to release.</span>
-      </li>
-      <li>
-        <strong>Platform Delivery &amp; Integrations</strong>
-        <span>App Store, Google Play, Steam, WebGL, desktop and mobile releases, including IAP, achievements, Workshop, ads, analytics, and platform SDKs.</span>
-      </li>
-      <li>
-        <strong>LiveOps &amp; Product Iteration</strong>
-        <span>Events, content updates, A/B tests, analytics, monetization, fixes, and live game improvements.</span>
-      </li>
-      <li>
-        <strong>Prototypes &amp; MVPs</strong>
-        <span>Playable prototypes, MVPs, core loops, mechanic validation, and fast iteration.</span>
-      </li>
-      <li>
-        <strong>Tooling, CI/CD &amp; Stabilization</strong>
-        <span>Editor tools, build pipelines, automation, debugging, optimization, crashes, memory, and production stability.</span>
-      </li>
-    </ul>
-  </div>
-</section>
-
 <section class="contact" id="contact">
   <div class="section-inner">
     <h2>Contact</h2>
     <div class="contact-availability" id="availability">
+      <p class="availability-heading"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></p>
       <p>Based in Rotterdam, Netherlands — available for European and international hire.</p>
       <ul>
         <li>Full-time contract / hire</li>
@@ -301,9 +268,7 @@ description: Senior Unity development for teams building, releasing, and support
         <li>Project-based work</li>
         <li>Freelance tasks</li>
       </ul>
-      <p class="supporting-copy">Rates depend on scope, involvement, duration, and responsibility level.</p>
     </div>
-    <p class="availability-heading"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></p>
     <p>Get in touch — let’s discuss the project, scope, timing, and budget.</p>
     <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
     <p class="contact-social-links">

@@ -326,7 +326,7 @@ li::marker {
 }
 
 .featured-work {
-  padding-block: 48px;
+  margin-top: 64px;
 }
 
 .featured-work-list {
@@ -1395,7 +1395,7 @@ strong {
   }
 
   .featured-work {
-    padding-block: 32px;
+    margin-top: 40px;
   }
 
   .featured-work-card {
