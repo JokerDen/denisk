@@ -326,19 +326,17 @@ li::marker {
 }
 
 .featured-work-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 400px));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 16px;
-}
-
-@media (min-width: 1000px) {
-  .featured-work-list {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+  overflow-x: auto;
+  padding-block: 4px;
 }
 
 .featured-work-card {
   display: flex;
+  flex: 0 0 400px;
   min-width: 0;
   min-height: 150px;
   align-items: center;
@@ -1403,10 +1401,6 @@ strong {
   .featured-work-card {
     gap: 16px;
     padding: 18px;
-  }
-
-  .featured-work-list {
-    grid-template-columns: minmax(0, 400px);
   }
 
   .featured-work-copy .availability-status {

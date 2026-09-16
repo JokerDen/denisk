@@ -11,25 +11,25 @@ description: Senior Unity development for teams building, releasing, and support
 
     <div class="featured-work" aria-label="Availability and featured articles">
       <div class="featured-work-list">
-        <a class="featured-work-card" href="#contact">
+        <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
           <span class="featured-work-copy">
-            <strong>Contract, freelance or full-time</strong>
-            <span><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></span>
-            <span>Rotterdam, Netherlands | Remote</span>
+            <strong>From Prototypes to a Hit Game</strong>
+            <span>How rapid hyper-casual prototyping evolved into a long-running commercial mobile game.</span>
           </span>
           <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </a>
         <a class="featured-work-card" href="{{ '/expertise/' | relative_url }}">
           <span class="featured-work-copy">
-            <strong>Mobile, Desktop, WebGL &amp; cross-platform delivery</strong>
-            <span>Explore my expertise in Unity development, LiveOps, integrations, and AI tooling.</span>
+            <strong>Expertise</strong>
+            <span>Mobile, Desktop, WebGL &amp; cross-platform delivery</span>
           </span>
           <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </a>
-        <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
+        <a class="featured-work-card" href="#contact">
           <span class="featured-work-copy">
-            <strong>From Prototypes to a Hit Game</strong>
-            <span>How rapid hyper-casual prototyping evolved into a long-running commercial mobile game.</span>
+            <strong>Contract, freelance or full-time</strong>
+            <span><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></span>
+            <span>Rotterdam, Netherlands | Remote</span>
           </span>
           <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </a>
