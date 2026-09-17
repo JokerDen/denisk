@@ -132,11 +132,11 @@ description: Senior Unity development for teams building, releasing, and support
         </div>
 
         <div class="experience-summary">
-          <p>As part of GameOps Live Studios, I worked in a team designing and developing features for existing games to increase revenue.</p>
+          <p>At GameOps Live Studios, I developed and supported LiveOps features for established mobile games, focusing on revenue growth, release stability, and production efficiency.</p>
           <ul class="compact-list">
-            <li>C# scripting and AI programming</li>
-            <li>Planning, design, implementation, and code review</li>
-            <li>Release management</li>
+            <li>Gameplay and LiveOps development in C#</li>
+            <li>Feature planning, code review, and A/B testing</li>
+            <li>Production release management</li>
             <li>Jenkins CI integration</li>
           </ul>
         </div>
