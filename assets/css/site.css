@@ -403,26 +403,31 @@ li::marker {
 
 .expertise-list {
   display: grid;
-  gap: 22px;
-  padding-left: 0;
-  list-style: none;
+  gap: 30px;
   font-size: clamp(18px, 1.6vw, 22px);
   line-height: 1.5;
 }
 
+.expertise-list h2 {
+  margin-bottom: 10px;
+  font-size: 1.08em;
+  line-height: 1.35;
+}
+
+.expertise-list ul {
+  padding-left: 1.25em;
+  list-style: disc;
+  font-size: inherit;
+  line-height: inherit;
+}
+
 .expertise-list li {
   margin: 0;
-  padding-left: 0;
+  padding-left: 4px;
 }
 
-.expertise-list strong,
-.expertise-list span {
-  display: block;
-}
-
-.expertise-list strong {
-  margin-bottom: 4px;
-  font-size: 1.08em;
+.expertise-list li + li {
+  margin-top: 6px;
 }
 
 .portfolio {

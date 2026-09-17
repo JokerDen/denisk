@@ -14,38 +14,67 @@ article: true
     </header>
 
     <div class="case-study-body">
-      <p>I’m a Senior Unity/C# Game Developer with 15+ years in commercial game development. I own gameplay systems and production features from design through release, with experience shipping and supporting multiple titles with 1M–10M+ installs.</p>
+      <p>Senior Unity/C# Game Developer with 15+ years in commercial game development, covering feature ownership, production, LiveOps, and cross-platform delivery.</p>
     </div>
 
-    <ul class="expertise-list">
-      <li>
-        <strong>Unity / C# &amp; Feature Ownership</strong>
-        <span>Gameplay systems, physics and destruction, UI, progression, and scalable architecture. I take features from planning and implementation through review and release, using SOLID principles and libraries including Zenject, UniTask, and DOTween.</span>
-      </li>
-      <li>
-        <strong>LiveOps &amp; F2P Product Iteration</strong>
-        <span>Gameplay and LiveOps features for established mobile titles, A/B-tested improvements, analytics, and monetization SDKs. My work at Voodoo focused on revenue growth, release stability, and production efficiency.</span>
-      </li>
-      <li>
-        <strong>Rapid Prototyping &amp; Full Production</strong>
-        <span>Dozens of gameplay prototypes, with promising concepts selected through early product metrics. At Fun-To-Mass, I led technical direction and took successful prototypes through production and release, covering gameplay, UI, progression, monetization, and SDK integrations.</span>
-      </li>
-      <li>
-        <strong>Mobile, Desktop, WebGL &amp; Cross-platform Delivery</strong>
-        <span>Commercial mobile releases and independent games for Steam, WebGL, and mobile. Earlier work spans social and web games, mobile adaptation, release support, and UI integration for an AAA console project.</span>
-      </li>
-      <li>
-        <strong>Integrations &amp; Backend</strong>
-        <span>Platform and third-party SDK integrations, REST APIs, sockets, and Node.js. Experience connecting games to social platform APIs, analytics, and monetization services.</span>
-      </li>
-      <li>
-        <strong>Release Engineering &amp; Team Workflow</strong>
-        <span>Production release management, CI/CD and Jenkins integration, Git Flow, code reviews, and team coordination. I help teams maintain reliable releases while continuing to deliver product improvements.</span>
-      </li>
-      <li>
-        <strong>AI Tooling &amp; Assisted Development</strong>
-        <span>Codex, Claude, and GitHub Copilot as part of my engineering workflow, supporting development productivity and broader technical coverage.</span>
-      </li>
-    </ul>
+    <div class="expertise-list">
+      <div>
+        <h2>Unity / C# &amp; Gameplay Systems</h2>
+        <ul>
+          <li>Feature ownership from design and planning through implementation, review, and release.</li>
+          <li>Gameplay systems, physics and destruction, UI/UX, and progression.</li>
+          <li>Scalable architecture, SOLID principles, and clean code.</li>
+          <li>Zenject, UniTask, and DOTween.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>LiveOps &amp; F2P</h2>
+        <ul>
+          <li>Development and ongoing support of gameplay and LiveOps features.</li>
+          <li>A/B-tested product improvements and analytics.</li>
+          <li>Monetization SDKs, revenue growth, and release stability.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Rapid Prototyping &amp; Production</h2>
+        <ul>
+          <li>Building and testing gameplay prototypes to explore new concepts.</li>
+          <li>Evaluating promising ideas through early product metrics.</li>
+          <li>Technical direction and development from prototype to full production and release.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Platforms &amp; UI Integration</h2>
+        <ul>
+          <li>Commercial mobile games, mobile adaptation, and release support.</li>
+          <li>Independent game development for desktop, Steam, WebGL, and mobile.</li>
+          <li>Social and web games, plus UI integration for an AAA console project.</li>
+          <li>Earlier development with ActionScript, AIR, Flex, Starling, Scaleform, and Animate.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Integrations &amp; Backend</h2>
+        <ul>
+          <li>Platform APIs and third-party SDK integrations.</li>
+          <li>REST APIs, sockets, and Node.js.</li>
+          <li>Connecting games to social platforms, analytics, and monetization services.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Release Engineering &amp; Team Workflow</h2>
+        <ul>
+          <li>Production release management and ongoing release support.</li>
+          <li>CI/CD workflows and Jenkins integration.</li>
+          <li>Git Flow, code reviews, and team coordination.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>AI-assisted Development</h2>
+        <ul>
+          <li>Codex, Claude, and GitHub Copilot in the engineering workflow.</li>
+          <li>AI-assisted workflows to improve development productivity and extend technical coverage.</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </article>
