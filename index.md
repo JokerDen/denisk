@@ -18,13 +18,6 @@ description: Senior Unity development for teams building, releasing, and support
           </span>
           <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </a>
-        <a class="featured-work-card" href="{{ '/expertise/' | relative_url }}">
-          <span class="featured-work-copy">
-            <strong>Expertise</strong>
-            <span>Mobile, Desktop, WebGL &amp; cross-platform delivery</span>
-          </span>
-          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
-        </a>
         <a class="featured-work-card" href="#contact">
           <span class="featured-work-copy">
             <strong>Contract, freelance or full-time</strong>
@@ -274,6 +267,7 @@ description: Senior Unity development for teams building, releasing, and support
     </div>
     <p>Get in touch — let’s discuss the project, scope, timing, and budget.</p>
     <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
+    <p class="contact-background-description">See my full background and core competencies on LinkedIn and in my CV.</p>
     <p class="contact-social-links">
       <a class="contact-icon-link" href="https://www.linkedin.com/in/denis-kazantsev-27487178/" target="_blank" rel="noopener noreferrer" aria-label="Denis Kazantsev on LinkedIn" title="LinkedIn">
         <img src="{{ '/assets/portfolio/linkedin.svg' | relative_url }}" alt="">

@@ -1294,6 +1294,12 @@ strong {
   font-size: clamp(18px, 1.6vw, 22px);
 }
 
+.contact .contact-background-description {
+  margin: 28px 0 12px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .contact {
   min-height: 680px;
   align-items: center;
