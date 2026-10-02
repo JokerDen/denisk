@@ -8,6 +8,7 @@
   --accent: #000000;
   --max-width: 960px;
   --header-height: 72px;
+  --footer-height: 64px;
 }
 
 * {
@@ -17,10 +18,12 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--header-height);
+  scroll-padding-bottom: var(--footer-height);
 }
 
 body {
   margin: 0;
+  padding-bottom: var(--footer-height);
   background: var(--bg);
   color: var(--ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -197,11 +200,6 @@ h1 {
   background: #258b50;
 }
 
-.availability-heading {
-  font-size: 0;
-  line-height: 1;
-}
-
 h2 {
   max-width: none;
   margin-bottom: 28px;
@@ -246,16 +244,6 @@ ul:last-child {
 
 .contact-availability {
   margin-bottom: 36px;
-}
-
-.contact .availability-heading {
-  margin-bottom: 12px;
-  line-height: 1;
-}
-
-.contact .availability-status {
-  font-size: 16px;
-  padding: 5px 10px;
 }
 
 .contact-icon-link {
@@ -376,11 +364,6 @@ li::marker {
 
 .featured-work-copy {
   min-width: 0;
-}
-
-.featured-work-copy .availability-status {
-  display: inline-flex;
-  font-size: 16px;
 }
 
 .featured-work-copy > span {
@@ -1025,14 +1008,14 @@ li::marker {
   background: #000000;
 }
 
-.portfolio-map .project-grid {
+:is(.portfolio-map, .case-study-projects) .project-grid {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   gap: 18px;
 }
 
-.portfolio-map .project-item {
+:is(.portfolio-map, .case-study-projects) .project-item {
   display: flex;
   min-width: 0;
   width: max-content;
@@ -1047,14 +1030,14 @@ li::marker {
   text-align: left;
 }
 
-.portfolio-map .project-icon-link {
+:is(.portfolio-map, .case-study-projects) .project-icon-link {
   display: block;
   width: 86px;
   flex: 0 0 86px;
   align-self: stretch;
 }
 
-.portfolio-map .project-icon {
+:is(.portfolio-map, .case-study-projects) .project-icon {
   width: 100%;
   height: 100%;
   min-height: 86px;
@@ -1063,7 +1046,7 @@ li::marker {
   box-shadow: none;
 }
 
-.portfolio-map .project-copy {
+:is(.portfolio-map, .case-study-projects) .project-copy {
   flex: 0 0 auto;
   justify-content: center;
   align-items: flex-start;
@@ -1071,7 +1054,7 @@ li::marker {
   text-align: left;
 }
 
-.portfolio-map .project-copy strong {
+:is(.portfolio-map, .case-study-projects) .project-copy strong {
   font-size: 15px;
   font-weight: 650;
   white-space: nowrap;
@@ -1082,21 +1065,21 @@ li::marker {
   white-space: nowrap;
 }
 
-.portfolio-map .project-copy > span:not(.store-links) {
+:is(.portfolio-map, .case-study-projects) .project-copy > span:not(.store-links) {
   font-size: 13px;
   white-space: nowrap;
 }
 
-.portfolio-map .project-copy b {
+:is(.portfolio-map, .case-study-projects) .project-copy b {
   color: inherit;
 }
 
-.portfolio-map .store-links {
+:is(.portfolio-map, .case-study-projects) .store-links {
   gap: 8px;
   margin-top: 6px;
 }
 
-.portfolio-map .store-link {
+:is(.portfolio-map, .case-study-projects) .store-link {
   width: 20px;
   height: 20px;
   flex-basis: 20px;
@@ -1105,11 +1088,11 @@ li::marker {
   background: transparent;
 }
 
-.portfolio-map .store-link:hover {
+:is(.portfolio-map, .case-study-projects) .store-link:hover {
   transform: translateY(-1px);
 }
 
-.portfolio-map .store-link img {
+:is(.portfolio-map, .case-study-projects) .store-link img {
   width: 16px;
   height: 16px;
 }
@@ -1267,6 +1250,68 @@ li::marker {
   font-weight: 650;
 }
 
+.portfolio-map .experience-article-card {
+  position: relative;
+  isolation: isolate;
+  transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+.experience-article-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.experience-article-link:focus-visible {
+  outline: none;
+}
+
+.experience-article-link::after {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  content: "";
+}
+
+.experience-article-card a:not(.experience-article-link) {
+  position: relative;
+  z-index: 2;
+}
+
+.experience-article-card .experience-header > .featured-work-arrow {
+  margin-left: auto;
+}
+
+.portfolio-map .experience-article-card:is(:hover, :focus-within) {
+  background: #161b22;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.portfolio-map .experience-article-card:is(:hover, :focus-within) :is(h3, strong, .experience-article-link, .experience-role, .experience-summary, .project-copy > span, .prototype-count, .prototype-qualifier) {
+  color: #ffffff;
+}
+
+.experience-article-card:is(:hover, :focus-within) .featured-work-arrow {
+  transform: translateX(4px);
+}
+
+.portfolio-map .experience-article-card:is(:hover, :focus-within) :is(.project-item, .prototype-project) {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.experience-article-card:is(:hover, :focus-within) .store-link img {
+  filter: invert(1);
+}
+
+.portfolio-map .experience-article-card:is(:hover, :focus-within) .company-logo {
+  background: #ffffff;
+}
+
+.experience-article-card:has(.experience-article-link:focus-visible) {
+  outline: 3px solid rgba(0, 0, 0, 0.32);
+  outline-offset: 3px;
+}
+
 strong {
   color: var(--ink);
   font-weight: 750;
@@ -1333,15 +1378,36 @@ strong {
   line-height: 1.08;
 }
 
+.case-study-experience {
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr);
+  align-items: center;
+  gap: 6px 14px;
+  margin-top: 20px;
+}
+
+.case-study-company-logo {
+  grid-row: span 2;
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+}
+
+.case-study-projects {
+  margin-top: 24px;
+}
+
 .case-study-role {
-  margin: 20px 0 0;
+  margin: 0;
   font-size: clamp(19px, 2vw, 22px);
   font-weight: 650;
   line-height: 1.4;
 }
 
 .case-study-subtitle {
-  margin: 6px 0 0;
+  margin: 0;
   color: var(--muted);
   font-size: 17px;
   font-weight: 650;
@@ -1359,13 +1425,27 @@ strong {
 }
 
 .site-footer {
-  padding-block: 28px;
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 10;
+  padding-top: 12px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--line);
+  background: var(--bg);
   color: var(--muted);
   font-size: 14px;
+  line-height: 1.8;
 }
 
 .site-footer p {
-  margin: 0;
+  margin-block: 0;
+}
+
+.site-footer .availability-status {
+  padding: 5px 10px;
+  font-size: 14px;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
 @media (max-width: 720px) {
@@ -1375,6 +1455,7 @@ strong {
 
   :root {
     --header-height: 112px;
+    --footer-height: 112px;
   }
 
   .site-header .page {
@@ -1414,10 +1495,6 @@ strong {
     padding: 18px;
   }
 
-  .featured-work-copy .availability-status {
-    font-size: 16px;
-  }
-
   h1 {
     font-size: 40px;
   }
@@ -1449,6 +1526,15 @@ strong {
   .case-study-header {
     margin-bottom: 32px;
     padding-bottom: 28px;
+  }
+
+  .case-study-experience {
+    grid-template-columns: 50px minmax(0, 1fr);
+    column-gap: 12px;
+  }
+
+  .case-study-subtitle {
+    font-size: 14px;
   }
 
   .case-study-body {

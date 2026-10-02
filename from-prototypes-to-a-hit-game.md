@@ -10,8 +10,42 @@ article: true
   <div class="case-study-inner">
     <header class="case-study-header">
       <h1>From Prototypes to a Hit Game</h1>
-      <p class="case-study-role">Lead Unity Developer</p>
-      <p class="case-study-subtitle">Fun-To-Mass Games <span aria-hidden="true">•</span> 2018-2022</p>
+      <div class="case-study-experience">
+        <a class="company-logo company-logo-image company-logo-full case-study-company-logo" href="http://fun-to-mass.com/" target="_blank" rel="noopener noreferrer" aria-label="Fun-To-Mass website">
+          <img src="{{ '/assets/portfolio/company-funtomass.png' | relative_url }}" alt="Fun-To-Mass">
+        </a>
+        <p class="case-study-role">Lead Unity Developer</p>
+        <p class="case-study-subtitle">Fun-To-Mass Games <span aria-hidden="true">•</span> 2018-2022</p>
+      </div>
+      <div class="case-study-projects" aria-label="Selected projects">
+        <div class="project-grid project-grid-four">
+          <div class="project-item">
+            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.whiteroom.crazydelivery" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on Google Play">
+              <img class="project-icon" src="{{ '/assets/portfolio/crash-delivery.png' | relative_url }}" alt="Crash Delivery app icon">
+            </a>
+            <div class="project-copy">
+              <strong>Crash Delivery</strong>
+              <span><b>10M+</b> installs</span>
+              <span class="store-links">
+                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.whiteroom.crazydelivery" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on Google Play" title="Google Play"><img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt=""></a>
+                <a class="store-link" href="https://apps.apple.com/us/app/crash-delivery-car-jumping/id1494327881" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on the App Store" title="App Store"><img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""></a>
+              </span>
+            </div>
+          </div>
+          <div class="project-item">
+            <a class="project-icon-link" href="https://apps.apple.com/us/app/airplane-crash-madness-game/id1592988294" target="_blank" rel="noopener noreferrer" aria-label="Crash Madness on the App Store">
+              <img class="project-icon" src="{{ '/assets/portfolio/crash-madness.jpg' | relative_url }}" alt="Crash Madness app icon">
+            </a>
+            <div class="project-copy">
+              <strong>Crash Madness</strong>
+              <span><b>1M+</b> installs</span>
+              <span class="store-links">
+                <a class="store-link" href="https://apps.apple.com/us/app/airplane-crash-madness-game/id1592988294" target="_blank" rel="noopener noreferrer" aria-label="Crash Madness on the App Store" title="App Store"><img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""></a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <div class="case-study-body">

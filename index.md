@@ -7,7 +7,7 @@ description: Senior Unity development for teams building, releasing, and support
 <section class="hero" id="top">
   <div class="section-inner">
     <h1>Senior Game Developer</h1>
-    <p class="lead">I help teams build, ship, and grow Unity games.</p>
+    <p class="lead">I help teams build, ship, operate, and grow Unity games.</p>
 
     <div class="featured-work" aria-label="Availability and featured articles">
       <div class="featured-work-list">
@@ -21,7 +21,6 @@ description: Senior Unity development for teams building, releasing, and support
         <a class="featured-work-card" href="#contact">
           <span class="featured-work-copy">
             <strong>Contract, freelance or full-time</strong>
-            <span><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></span>
             <span>Rotterdam, Netherlands | Remote</span>
           </span>
           <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
@@ -146,15 +145,16 @@ description: Senior Unity development for teams building, releasing, and support
         <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
       </article>
 
-      <article class="experience-card experience-white-room">
+      <article class="experience-card experience-white-room experience-article-card">
         <header class="experience-header">
           <a class="company-logo company-logo-image company-logo-full" href="http://fun-to-mass.com/" target="_blank" rel="noopener noreferrer" aria-label="Fun-To-Mass website">
             <img src="{{ '/assets/portfolio/company-funtomass.png' | relative_url }}" alt="Fun-To-Mass">
           </a>
           <div>
-            <h3>Lead Unity Developer</h3>
+            <h3><a class="experience-article-link" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}" aria-label="Lead Unity Developer — From Prototypes to a Hit Game">Lead Unity Developer</a></h3>
             <p class="experience-role">Fun-To-Mass &nbsp;•&nbsp; 2018–2022</p>
           </div>
+          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </header>
         <div class="project-grid project-grid-three">
           <div class="project-item">
@@ -256,7 +256,6 @@ description: Senior Unity development for teams building, releasing, and support
   <div class="section-inner">
     <h2>Contact</h2>
     <div class="contact-availability" id="availability">
-      <p class="availability-heading"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span></p>
       <p>Based in Rotterdam, Netherlands — registered and available to work with clients across Europe and worldwide.</p>
       <ul>
         <li>Full-time contract / hire</li>
@@ -265,8 +264,6 @@ description: Senior Unity development for teams building, releasing, and support
         <li>Freelance tasks</li>
       </ul>
     </div>
-    <p>Get in touch — let’s discuss the project, scope, timing, and budget.</p>
-    <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
     <p class="contact-background-description">See my full background and core competencies on LinkedIn and in my CV.</p>
     <p class="contact-social-links">
       <a class="contact-icon-link" href="https://www.linkedin.com/in/denis-kazantsev-27487178/" target="_blank" rel="noopener noreferrer" aria-label="Denis Kazantsev on LinkedIn" title="LinkedIn">
@@ -275,5 +272,7 @@ description: Senior Unity development for teams building, releasing, and support
       <span class="contact-link-separator" aria-hidden="true">/</span>
       <a class="contact-cv-link" href="https://drive.google.com/file/d/1g98b4UN1PHDdomWJ3zL3ed09sKaGaU2E/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
     </p>
+    <p>Get in touch — let’s discuss the project, scope, timing, and budget.</p>
+    <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
   </div>
 </section>

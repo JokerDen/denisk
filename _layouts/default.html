@@ -34,8 +34,16 @@
       {{ content }}
     </main>
 
-    <footer class="page site-footer">
-      <p>DenisK Interactive · Game Developer for Hire · Netherlands · 2026</p>
+    <footer class="site-footer">
+      <p class="page"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span> · Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
     </footer>
+    <script>
+      const footer = document.querySelector('.site-footer');
+      const reserveFooterSpace = () => {
+        document.documentElement.style.setProperty('--footer-height', `${Math.ceil(footer.getBoundingClientRect().height)}px`);
+      };
+      reserveFooterSpace();
+      new ResizeObserver(reserveFooterSpace).observe(footer);
+    </script>
   </body>
 </html>
