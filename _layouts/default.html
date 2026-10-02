@@ -19,7 +19,7 @@
         </a>
         {% if page.article %}
         <nav aria-label="Article navigation">
-          <a href="{{ '/' | relative_url }}">Back to portfolio</a>
+          <a href="{{ '/' | relative_url }}"><span aria-hidden="true">&larr;</span> Back to portfolio</a>
         </nav>
         {% else %}
         <nav aria-label="Main navigation">
@@ -35,15 +35,7 @@
     </main>
 
     <footer class="site-footer">
-      <p class="page"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span> · Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
+      <p class="page"><a class="availability-status" href="{{ '/' | relative_url }}#contact"><span class="availability-dot" aria-hidden="true"></span>Available for work</a> · Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
     </footer>
-    <script>
-      const footer = document.querySelector('.site-footer');
-      const reserveFooterSpace = () => {
-        document.documentElement.style.setProperty('--footer-height', `${Math.ceil(footer.getBoundingClientRect().height)}px`);
-      };
-      reserveFooterSpace();
-      new ResizeObserver(reserveFooterSpace).observe(footer);
-    </script>
   </body>
 </html>
