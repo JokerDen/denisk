@@ -1451,14 +1451,14 @@ strong {
   transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
 }
 
-.site-footer .availability-status:is(:hover, :focus-visible) {
+.site-footer a.availability-status:is(:hover, :focus-visible) {
   border-color: #17683a;
   background: #17683a;
   color: #ffffff;
   transform: translateY(-2px);
 }
 
-.site-footer .availability-status:is(:hover, :focus-visible) .availability-dot {
+.site-footer a.availability-status:is(:hover, :focus-visible) .availability-dot {
   background: #ffffff;
 }
 

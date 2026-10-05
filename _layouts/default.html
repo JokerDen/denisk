@@ -35,7 +35,7 @@
     </main>
 
     <footer class="site-footer">
-      <p class="page"><a class="availability-status" href="{{ '/' | relative_url }}#contact"><span class="availability-dot" aria-hidden="true"></span>Available for work</a> · Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
+      <p class="page">{% if page.url == '/' %}<span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span>{% else %}<a class="availability-status" href="{{ '/' | relative_url }}#contact"><span class="availability-dot" aria-hidden="true"></span>Available for work</a>{% endif %} · Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
     </footer>
   </body>
 </html>
