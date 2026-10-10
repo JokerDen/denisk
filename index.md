@@ -7,7 +7,7 @@ description: Senior Unity development for teams building, releasing, and support
 <section class="hero" id="top">
   <div class="section-inner">
     <h1>Senior Game Developer</h1>
-    <p class="lead">I help teams build, ship, operate, and grow Unity games.</p>
+    <p class="lead">I help teams build, ship, operate, and grow games.</p>
 
     <div class="featured-work" aria-label="Availability and featured articles">
       <div class="featured-work-list">
