@@ -38,87 +38,56 @@ description: Senior Unity development for teams building, releasing, and support
     </div>
 
     <div class="portfolio-map" aria-label="Work experience and selected projects">
-      <article class="experience-card experience-voodoo">
+      <article class="experience-card experience-voodoo experience-article-card">
         <header class="experience-header">
-          <a class="company-logo company-logo-image company-logo-dark" href="https://www.voodoo.io/" target="_blank" rel="noopener noreferrer" aria-label="Voodoo website">
+          <div class="company-logo company-logo-image company-logo-dark">
             <img src="{{ '/assets/portfolio/voodooio_logo.jpeg' | relative_url }}" alt="Voodoo">
-          </a>
+          </div>
           <div>
-            <h3>Unity Developer</h3>
+            <h3><a class="experience-article-link" href="{{ '/revenue-growth/' | relative_url }}" aria-label="Unity Developer — Revenue Growth">Unity Developer</a></h3>
             <p class="experience-role">Voodoo &nbsp;•&nbsp; 2022–2026</p>
           </div>
+          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </header>
 
         <div class="project-grid project-grid-four">
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.TrofyGames.UboatAttack" target="_blank" rel="noopener noreferrer" aria-label="Uboat Attack on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/uboat-attack.png' | relative_url }}" alt="Uboat Attack app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Uboat Attack</strong>
               <span><b>10M+</b> installs</span>
-              <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.TrofyGames.UboatAttack" target="_blank" rel="noopener noreferrer" aria-label="Uboat Attack on Google Play" title="Google Play">
-                  <img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt="">
-                </a>
-                <a class="store-link" href="https://apps.apple.com/us/app/uboat-attack/id1601984093" target="_blank" rel="noopener noreferrer" aria-label="Uboat Attack on the App Store" title="App Store">
-                  <img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt="">
-                </a>
-              </span>
             </div>
           </div>
 
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.tapped.snipersiege" target="_blank" rel="noopener noreferrer" aria-label="Sniper Siege on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/sniper-siege.png' | relative_url }}" alt="Sniper Siege app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Sniper Siege</strong>
               <span><b>10M+</b> installs</span>
-              <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.tapped.snipersiege" target="_blank" rel="noopener noreferrer" aria-label="Sniper Siege on Google Play" title="Google Play">
-                  <img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt="">
-                </a>
-                <a class="store-link" href="https://apps.apple.com/us/app/sniper-siege-defend-destroy/id6449642802" target="_blank" rel="noopener noreferrer" aria-label="Sniper Siege on the App Store" title="App Store">
-                  <img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt="">
-                </a>
-              </span>
             </div>
           </div>
 
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.homiebearstudio.walkersattack" target="_blank" rel="noopener noreferrer" aria-label="Walkers Attack on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/walkers-attack.png' | relative_url }}" alt="Walkers Attack app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Walkers Attack</strong>
               <span><b>1M+</b> installs</span>
-              <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.homiebearstudio.walkersattack" target="_blank" rel="noopener noreferrer" aria-label="Walkers Attack on Google Play" title="Google Play">
-                  <img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt="">
-                </a>
-                <a class="store-link" href="https://apps.apple.com/nl/app/walkers-attack/id6450046960" target="_blank" rel="noopener noreferrer" aria-label="Walkers Attack on the App Store" title="App Store">
-                  <img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt="">
-                </a>
-              </span>
             </div>
           </div>
 
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.karimcastagnini.castlestorm&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Castle Raid on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/castle-raid.jpg' | relative_url }}" alt="Castle Raid app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Castle Raid!</strong>
               <span><b>10M+</b> installs</span>
-              <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.karimcastagnini.castlestorm&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Castle Raid on Google Play" title="Google Play">
-                  <img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt="">
-                </a>
-                <a class="store-link" href="https://apps.apple.com/ai/app/castle-raid/id1560632350" target="_blank" rel="noopener noreferrer" aria-label="Castle Raid on the App Store" title="App Store">
-                  <img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt="">
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -147,9 +116,9 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-white-room experience-article-card">
         <header class="experience-header">
-          <a class="company-logo company-logo-image company-logo-full" href="http://fun-to-mass.com/" target="_blank" rel="noopener noreferrer" aria-label="Fun-To-Mass website">
+          <div class="company-logo company-logo-image company-logo-full">
             <img src="{{ '/assets/portfolio/company-funtomass.png' | relative_url }}" alt="Fun-To-Mass">
-          </a>
+          </div>
           <div>
             <h3><a class="experience-article-link" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}" aria-label="Lead Unity Developer — From Prototypes to a Hit Game">Lead Unity Developer</a></h3>
             <p class="experience-role">Fun-To-Mass &nbsp;•&nbsp; 2018–2022</p>
@@ -158,28 +127,21 @@ description: Senior Unity development for teams building, releasing, and support
         </header>
         <div class="project-grid project-grid-three">
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.whiteroom.crazydelivery" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/crash-delivery.png' | relative_url }}" alt="Crash Delivery app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Crash Delivery</strong>
               <span><b>10M+</b> installs</span>
-              <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.whiteroom.crazydelivery" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on Google Play" title="Google Play"><img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt=""></a>
-                <a class="store-link" href="https://apps.apple.com/us/app/crash-delivery-car-jumping/id1494327881" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on the App Store" title="App Store"><img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""></a>
-              </span>
             </div>
           </div>
           <div class="project-item">
-            <a class="project-icon-link" href="https://apps.apple.com/us/app/airplane-crash-madness-game/id1592988294" target="_blank" rel="noopener noreferrer" aria-label="Crash Madness on the App Store">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/crash-madness.jpg' | relative_url }}" alt="Crash Madness app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Crash Madness</strong>
               <span><b>1M+</b> installs</span>
-              <span class="store-links">
-                <a class="store-link" href="https://apps.apple.com/us/app/airplane-crash-madness-game/id1592988294" target="_blank" rel="noopener noreferrer" aria-label="Crash Madness on the App Store" title="App Store"><img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""></a>
-              </span>
             </div>
           </div>
           <div class="prototype-project">
@@ -193,9 +155,9 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-ilogos experience-card-compact">
         <header class="experience-header">
-          <a class="company-logo company-logo-image" href="https://ilogos.biz/" target="_blank" rel="noopener noreferrer" aria-label="iLogos website">
+          <div class="company-logo company-logo-image">
             <img src="{{ '/assets/portfolio/ilogos_logo.jpeg' | relative_url }}" alt="iLogos">
-          </a>
+          </div>
           <div>
             <h3>Flash Developer</h3>
             <p class="experience-role">iLogos &nbsp;•&nbsp; 2017–2018</p>
@@ -207,9 +169,9 @@ description: Senior Unity development for teams building, releasing, and support
 
       <article class="experience-card experience-saber experience-card-compact">
         <header class="experience-header">
-          <a class="company-logo company-logo-image company-logo-dark" href="https://saber.games/" target="_blank" rel="noopener noreferrer" aria-label="Saber Interactive website">
+          <div class="company-logo company-logo-image company-logo-dark">
             <img src="{{ '/assets/portfolio/company-saber.png' | relative_url }}" alt="Saber Interactive">
-          </a>
+          </div>
           <div>
             <h3>UI Technical Artist</h3>
             <p class="experience-role">Saber Interactive &nbsp;•&nbsp; 2016–2017</p>

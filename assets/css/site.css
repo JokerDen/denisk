@@ -652,7 +652,8 @@ li::marker {
   background: #f6f7f9;
 }
 
-.project-icon-link {
+.project-icon-link,
+.project-icon-frame {
   flex: 0 0 auto;
   line-height: 0;
 }
@@ -1047,7 +1048,7 @@ li::marker {
   text-align: left;
 }
 
-.portfolio-map .project-icon-link {
+.portfolio-map .project-icon-frame {
   display: block;
   width: 86px;
   flex: 0 0 86px;
@@ -1089,29 +1090,6 @@ li::marker {
 
 .portfolio-map .project-copy b {
   color: inherit;
-}
-
-.portfolio-map .store-links {
-  gap: 8px;
-  margin-top: 6px;
-}
-
-.portfolio-map .store-link {
-  width: 20px;
-  height: 20px;
-  flex-basis: 20px;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-}
-
-.portfolio-map .store-link:hover {
-  transform: translateY(-1px);
-}
-
-.portfolio-map .store-link img {
-  width: 16px;
-  height: 16px;
 }
 
 .portfolio-map .prototype-project {
@@ -1304,7 +1282,7 @@ li::marker {
   transform: translateY(-2px);
 }
 
-.portfolio-map .experience-article-card:is(:hover, :focus-within) :is(h3, strong, .experience-article-link, .experience-role, .experience-summary, .project-copy > span, .prototype-count, .prototype-qualifier) {
+.portfolio-map .experience-article-card:is(:hover, :focus-within) :is(h3, strong, .experience-article-link, .experience-role, .experience-summary, .compact-list, .project-copy > span, .prototype-count, .prototype-qualifier) {
   color: #ffffff;
 }
 
@@ -1314,10 +1292,6 @@ li::marker {
 
 .portfolio-map .experience-article-card:is(:hover, :focus-within) :is(.project-item, .prototype-project) {
   border-color: rgba(255, 255, 255, 0.25);
-}
-
-.experience-article-card:is(:hover, :focus-within) .store-link img {
-  filter: invert(1);
 }
 
 .portfolio-map .experience-article-card:is(:hover, :focus-within) .company-logo {
