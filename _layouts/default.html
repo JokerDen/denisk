@@ -19,7 +19,8 @@
         </a>
         {% if page.article %}
         <nav aria-label="Article navigation">
-          <a href="{{ '/' | relative_url }}"><span aria-hidden="true">&larr;</span> Back to portfolio</a>
+          <a class="header-button" href="{{ '/' | relative_url }}"><span aria-hidden="true">&larr;</span> Back to portfolio</a>
+          <a class="header-button" href="{{ '/' | relative_url }}#contact">Contact</a>
         </nav>
         {% else %}
         <nav aria-label="Main navigation">
