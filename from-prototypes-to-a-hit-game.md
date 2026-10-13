@@ -53,12 +53,12 @@ article: true
 
       <p>Eventually, one concept performed well enough to keep developing: a car falling down a mountain, smashing through the environment and gradually destroying itself along the way.</p>
 
-      <video class="case-study-video" width="1920" height="820" autoplay loop muted playsinline preload="metadata" tabindex="0" role="button" aria-label="Pause prototype evolution video">
-        <source src="{{ '/assets/video/wrg-prototype-evolution.mp4' | relative_url }}" type="video/mp4">
+      <p>I handled the programming and built the first playable version in roughly one to two weeks, with most of my attention going into game feel: tuning the falling, impacts, destruction, and sense of constant progression. Despite its rough form — simple Unity Terrain, cube-based environments, and a basic upgrade economy — the first test already showed strong product metrics.</p>
+
+      <video class="case-study-video" width="1920" height="820" poster="{{ '/assets/video/article-video-loading.svg' | relative_url }}" autoplay loop muted playsinline preload="metadata" tabindex="0" role="button" aria-label="Pause Crash Delivery prototype video">
+        <source src="{{ '/assets/video/wrg-delivery-prototype.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support embedded video.
       </video>
-
-      <p>I handled the programming and built the first playable version in roughly one to two weeks, with most of my attention going into game feel: tuning the falling, impacts, destruction, and sense of constant progression. Despite its rough form — simple Unity Terrain, cube-based environments, and a basic upgrade economy — the first test already showed strong product metrics.</p>
 
       <p>Over the next year, that prototype evolved into a full game. The core gameplay became deeper and more varied, while the project gained a much richer progression structure, vehicle customization, economy, and other meta features that gave players more reasons to keep playing beyond the original mechanic.</p>
 

@@ -3,11 +3,11 @@
   if (!root.classList.contains("is-homepage")) return;
 
   let updatePending = false;
+  const collapseDistance = 160;
 
   function updateHeader() {
-    // Separate thresholds keep resizing from toggling the header near the top.
-    const threshold = root.classList.contains("is-scrolled") ? 8 : 48;
-    root.classList.toggle("is-scrolled", window.scrollY > threshold);
+    const progress = Math.min(Math.max(window.scrollY, 0) / collapseDistance, 1);
+    root.style.setProperty("--header-expansion", String(1 - progress));
     updatePending = false;
   }
 

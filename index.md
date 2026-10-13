@@ -12,7 +12,7 @@ description: Senior Unity development for teams building, releasing, and support
     </h1>
     <p class="lead">I help teams build, ship, operate, and grow games.</p>
 
-    <div class="featured-work" aria-label="Availability and featured articles">
+    <div class="featured-work" aria-label="Work status and featured articles">
       <div class="featured-work-list">
         <a class="featured-work-card" href="{{ '/from-prototypes-to-a-hit-game/' | relative_url }}">
           <span class="featured-work-copy">
@@ -23,8 +23,8 @@ description: Senior Unity development for teams building, releasing, and support
         </a>
         <a class="featured-work-card" href="#contact">
           <span class="featured-work-copy">
-            <strong>Contract, freelance or full-time</strong>
-            <span>Rotterdam, Netherlands | Remote</span>
+            <strong class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Open to work</strong>
+            <span>Based in Rotterdam, Netherlands, I'm available for contract, freelance or full-time work.</span>
           </span>
           <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </a>

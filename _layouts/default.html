@@ -27,8 +27,8 @@
         </nav>
         {% else %}
         <nav aria-label="Main navigation">
-          <a class="header-button" href="#portfolio">Portfolio</a>
-          <a class="header-button" href="#contact">Contact</a>
+          <a class="header-button" href="#portfolio" data-label="Portfolio"><span>Portfolio</span></a>
+          <a class="header-button" href="#contact" data-label="Contact"><span>Contact</span></a>
         </nav>
         {% endif %}
       </div>
@@ -39,7 +39,7 @@
     </main>
 
     <footer class="site-footer">
-      <p class="page">{% if page.url == '/' %}<span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Available for work</span>{% else %}<a class="availability-status" href="{{ '/' | relative_url }}#contact"><span class="availability-dot" aria-hidden="true"></span>Available for work</a>{% endif %} · Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
+      <p class="page">{% if page.url == '/' %}<span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Open to work</span>{% else %}<a class="availability-status" href="{{ '/' | relative_url }}#contact"><span class="availability-dot" aria-hidden="true"></span>Open to work</a>{% endif %} · Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
     </footer>
   </body>
 </html>
