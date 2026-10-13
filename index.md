@@ -6,7 +6,10 @@ description: Senior Unity development for teams building, releasing, and support
 
 <section class="hero" id="top">
   <div class="section-inner">
-    <h1>Senior Game Developer</h1>
+    <h1>
+      Hey, I'm Denis.
+      <span class="hero-roles">Game Developer. Engineer. Designer.</span>
+    </h1>
     <p class="lead">I help teams build, ship, operate, and grow games.</p>
 
     <div class="featured-work" aria-label="Availability and featured articles">

@@ -1,11 +1,14 @@
 <!doctype html>
-<html lang="{{ site.lang | default: 'en' }}">
+<html lang="{{ site.lang | default: 'en' }}"{% if page.url == '/' %} class="is-homepage"{% endif %}>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <link rel="icon" type="image/png" href="{{ '/assets/logo.png' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    {% if page.url == '/' %}
+    <script src="{{ '/assets/js/site-header.js' | relative_url }}" defer></script>
+    {% endif %}
   </head>
   <body>
     <header class="site-header">
