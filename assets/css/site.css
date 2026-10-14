@@ -97,7 +97,7 @@ a:focus-visible {
   top: 0;
   z-index: 10;
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(238, 242, 246, 0.85);
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
@@ -530,10 +530,9 @@ li::marker {
 .portfolio-map {
   display: grid;
   grid-template-areas:
+    "overview"
     "voodoo"
-    "white"
-    "earlier"
-    "indie";
+    "white";
   grid-template-columns: minmax(0, 1fr);
   gap: var(--space-2);
   margin-top: var(--space-4);
@@ -573,17 +572,13 @@ li::marker {
   grid-area: voodoo;
 }
 
-.experience-indie {
-  grid-area: indie;
+.experience-overview {
+  grid-area: overview;
 }
 
 .experience-white-room {
   grid-area: white;
   border-top-color: #f2542d;
-}
-
-.experience-earlier {
-  grid-area: earlier;
 }
 
 .experience-header {
@@ -1025,7 +1020,7 @@ li::marker {
   font-size: 21px;
 }
 
-/* Unified portfolio cards: article, media, company, then projects. */
+/* Unified portfolio cards: article intro, company, then projects. */
 .portfolio-map .experience-card {
   --experience-card-padding: var(--space-3);
   position: relative;
@@ -1048,7 +1043,7 @@ li::marker {
 
 .portfolio-map .experience-header h3 {
   min-width: 0;
-  font-size: clamp(24px, 2.7vw, 28px);
+  font-size: clamp(28px, 3.2vw, 34px);
   font-weight: var(--heading-weight);
   line-height: 1.25;
 }
@@ -1069,14 +1064,19 @@ li::marker {
 .portfolio-map .experience-summary {
   margin: 0;
   color: var(--muted);
-  font-size: var(--font-body);
-  line-height: 1.65;
+  font-size: clamp(20px, 2vw, 22px);
+  line-height: 1.55;
+}
+
+.experience-feature {
+  display: grid;
+  grid-template-areas: "feature";
+  margin: calc(-1 * var(--experience-card-padding)) calc(-1 * var(--experience-card-padding)) 0;
 }
 
 .experience-media {
+  grid-area: feature;
   position: relative;
-  margin-top: var(--space-2);
-  margin-inline: calc(-1 * var(--experience-card-padding));
   overflow: hidden;
   background: var(--paper);
 }
@@ -1084,7 +1084,26 @@ li::marker {
 .experience-video {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.experience-intro {
+  grid-area: feature;
+  align-self: start;
+  z-index: 1;
+  padding: var(--experience-card-padding);
+  background: linear-gradient(to bottom, rgba(20, 24, 31, 0.78), rgba(20, 24, 31, 0.52) 70%, transparent);
+  color: var(--paper);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.experience-intro .experience-article-link {
+  color: var(--paper);
+}
+
+.portfolio-map .experience-intro .experience-summary {
+  color: var(--paper);
 }
 
 .experience-company {
@@ -1095,8 +1114,20 @@ li::marker {
   margin-top: var(--space-3);
 }
 
-.experience-company > div:last-child {
+.experience-company > div {
   min-width: 0;
+}
+
+.experience-arrow-link {
+  margin-left: auto;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
+}
+
+.experience-arrow-link:focus-visible {
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .experience-company-name {
@@ -1132,6 +1163,39 @@ li::marker {
   flex: 0 0 auto;
   align-items: center;
   gap: 4px;
+}
+
+.studio-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1);
+  margin-top: var(--space-2);
+}
+
+.studio-logo-list .company-logo {
+  width: 32px;
+  height: 32px;
+  flex-basis: 32px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.studio-logo-list .company-logo-more {
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 20px;
+  font-weight: 650;
+  line-height: 1;
+}
+
+.portfolio-map.article-experience-map {
+  grid-template-areas: none;
+  margin: var(--space-4) 0;
+}
+
+.portfolio-map.article-experience-map .experience-card {
+  grid-area: auto;
 }
 
 .portfolio-map .project-grid {
@@ -1242,7 +1306,9 @@ li::marker {
     transform: translateY(-2px);
   }
 
-  .experience-article-card:hover .featured-work-arrow {
+  .experience-arrow-link:hover {
+    background: var(--ink);
+    color: var(--paper);
     transform: translateX(3px);
   }
 }
@@ -1349,6 +1415,13 @@ strong {
 
 .case-study-header > .case-study-subtitle {
   margin-top: var(--space-2);
+}
+
+.case-study-description {
+  margin: var(--space-2) 0;
+  color: var(--muted);
+  font-size: var(--font-body-large);
+  line-height: 1.55;
 }
 
 .case-study h1 {
@@ -1497,6 +1570,17 @@ strong {
   line-height: 1.25;
 }
 
+.story-article .article-section > h2 {
+  margin-bottom: var(--space-2);
+  font-size: clamp(24px, 3vw, 28px);
+}
+
+.story-article .article-section > h3 {
+  margin: var(--space-4) 0 var(--space-2);
+  font-size: 24px;
+  line-height: 1.25;
+}
+
 .article-section .article-metadata {
   margin-bottom: var(--space-2);
   color: var(--muted);
@@ -1640,10 +1724,9 @@ strong {
 
   .portfolio-map {
     grid-template-areas:
+      "overview"
       "voodoo"
-      "white"
-      "earlier"
-      "indie";
+      "white";
     grid-template-columns: minmax(0, 1fr);
     margin-top: var(--space-3);
   }
@@ -1699,12 +1782,12 @@ strong {
 @media (prefers-reduced-motion: reduce) {
   .site-header .header-button,
   .portfolio-map .experience-article-card,
-  .experience-article-card .featured-work-arrow {
+  .experience-arrow-link {
     transition: none;
   }
 
   .portfolio-map .experience-article-card:hover,
-  .experience-article-card:hover .featured-work-arrow {
+  .experience-arrow-link:hover {
     transform: none;
   }
 }

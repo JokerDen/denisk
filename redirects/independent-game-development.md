@@ -1,6 +1,6 @@
 ---
 layout: redirect
-title: Independent Game Development
+title: My Work in Game Development
 permalink: /independent-game-development/
-redirect_to: /independent/
+redirect_to: /game-developer/
 ---
