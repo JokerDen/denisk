@@ -2,7 +2,7 @@
 layout: default
 title: Independent Game Development
 description: Part-time independent game development across Steam, mobile, and WebGL, with 20+ game jams and 18 Ludum Dare Compo entries.
-permalink: /independent-game-development/
+permalink: /independent/
 article: true
 ---
 

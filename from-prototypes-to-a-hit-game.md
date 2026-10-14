@@ -2,7 +2,7 @@
 layout: default
 title: From Prototypes to a Hit Game
 description: How rapid hyper-casual prototyping evolved into a long-running commercial mobile game.
-permalink: /from-prototypes-to-a-hit-game/
+permalink: /fun-to-mass/
 article: true
 ---
 

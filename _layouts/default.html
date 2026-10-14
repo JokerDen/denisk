@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
     {% if page.url == '/' %}
     <script src="{{ '/assets/js/site-header.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/portfolio-video.js' | relative_url }}" defer></script>
     {% endif %}
   </head>
   <body>
@@ -23,7 +24,7 @@
         {% if page.article %}
         <nav aria-label="Article navigation">
           <a class="header-button" href="{{ '/' | relative_url }}"><span aria-hidden="true">&larr;</span> Back to portfolio</a>
-          <a class="header-button" href="{{ '/' | relative_url }}#contact">Contact</a>
+          <a class="header-button" href="{{ '/' | relative_url }}#contact"><span>Contact</span></a>
         </nav>
         {% else %}
         <nav aria-label="Main navigation">
@@ -39,7 +40,7 @@
     </main>
 
     <footer class="site-footer">
-      <p class="page">{% if page.url == '/' %}<span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Open to work</span>{% else %}<a class="availability-status" href="{{ '/' | relative_url }}#contact"><span class="availability-dot" aria-hidden="true"></span>Open to work</a>{% endif %} · Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
+      <p class="page">Denis Kazantsev · DenisK Interactive · Senior Game Developer · Netherlands · 2026</p>
     </footer>
   </body>
 </html>

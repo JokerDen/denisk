@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Revenue Growth
-description: LiveOps development, A/B testing, and release management for established mobile games at Voodoo.
-permalink: /revenue-growth/
+title: Scaling Games for Growth
+description: At GameOps Live Studios, I contributed to the growth and long-term success of established mobile games by developing new features, improving player experiences, and ensuring smooth, reliable releases.
+permalink: /voodoo/
 article: true
 ---
 
 <article class="case-study">
   <div class="case-study-inner">
     <header class="case-study-header">
-      <h1>Revenue Growth</h1>
+      <h1>Scaling Games for Growth</h1>
       <div class="case-study-experience">
         <a class="company-logo company-logo-image company-logo-dark case-study-company-logo" href="https://www.voodoo.io/" target="_blank" rel="noopener noreferrer" aria-label="Voodoo website">
           <img src="{{ '/assets/portfolio/voodooio_logo.jpeg' | relative_url }}" alt="Voodoo">

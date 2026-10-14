@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Earlier Game Development
-description: Five earlier commercial roles spanning Flash development, console UI integration, social and mobile games, and iGaming.
-permalink: /earlier-game-development/
+title: Professional Journey
+description: Earlier commercial work across live support, release management, console UI integration, and social, mobile, and iGaming products.
+permalink: /earlier-studios/
 article: true
 ---
 
 <article class="case-study">
   <div class="case-study-inner">
     <header class="case-study-header">
-      <h1>Earlier Game Development</h1>
-      <p class="case-study-subtitle">iLogos · Saber Interactive · Kosmos · i-Free · iGaming</p>
+      <h1>Professional Journey</h1>
+      <p class="case-study-subtitle">iLogos · Saber Interactive · other studios · 2011–2018</p>
     </header>
 
     <div class="case-study-body">
