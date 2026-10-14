@@ -20,73 +20,73 @@ article: true
       <div class="case-study-projects" aria-label="Selected projects">
         <div class="project-grid">
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.TrofyGames.UboatAttack" target="_blank" rel="noopener noreferrer" aria-label="Uboat Attack on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/uboat-attack.png' | relative_url }}" alt="Uboat Attack app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Uboat Attack</strong>
               <span><b>10M+</b> installs</span>
               <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.TrofyGames.UboatAttack" target="_blank" rel="noopener noreferrer" aria-label="Uboat Attack on Google Play" title="Google Play">
+                <span class="store-platform">
                   <img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt=""><span>Google Play</span>
-                </a>
-                <a class="store-link" href="https://apps.apple.com/us/app/uboat-attack/id1601984093" target="_blank" rel="noopener noreferrer" aria-label="Uboat Attack on the App Store" title="App Store">
+                </span>
+                <span class="store-platform">
                   <img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""><span>App Store</span>
-                </a>
+                </span>
               </span>
             </div>
           </div>
 
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.tapped.snipersiege" target="_blank" rel="noopener noreferrer" aria-label="Sniper Siege on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/sniper-siege.png' | relative_url }}" alt="Sniper Siege app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Sniper Siege</strong>
               <span><b>10M+</b> installs</span>
               <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.tapped.snipersiege" target="_blank" rel="noopener noreferrer" aria-label="Sniper Siege on Google Play" title="Google Play">
+                <span class="store-platform">
                   <img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt=""><span>Google Play</span>
-                </a>
-                <a class="store-link" href="https://apps.apple.com/us/app/sniper-siege-defend-destroy/id6449642802" target="_blank" rel="noopener noreferrer" aria-label="Sniper Siege on the App Store" title="App Store">
+                </span>
+                <span class="store-platform">
                   <img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""><span>App Store</span>
-                </a>
+                </span>
               </span>
             </div>
           </div>
 
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.homiebearstudio.walkersattack" target="_blank" rel="noopener noreferrer" aria-label="Walkers Attack on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/walkers-attack.png' | relative_url }}" alt="Walkers Attack app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Walkers Attack</strong>
               <span><b>1M+</b> installs</span>
               <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.homiebearstudio.walkersattack" target="_blank" rel="noopener noreferrer" aria-label="Walkers Attack on Google Play" title="Google Play">
+                <span class="store-platform">
                   <img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt=""><span>Google Play</span>
-                </a>
-                <a class="store-link" href="https://apps.apple.com/nl/app/walkers-attack/id6450046960" target="_blank" rel="noopener noreferrer" aria-label="Walkers Attack on the App Store" title="App Store">
+                </span>
+                <span class="store-platform">
                   <img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""><span>App Store</span>
-                </a>
+                </span>
               </span>
             </div>
           </div>
 
           <div class="project-item">
-            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.karimcastagnini.castlestorm&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Castle Raid on Google Play">
+            <div class="project-icon-frame">
               <img class="project-icon" src="{{ '/assets/portfolio/castle-raid.jpg' | relative_url }}" alt="Castle Raid app icon">
-            </a>
+            </div>
             <div class="project-copy">
               <strong>Castle Raid!</strong>
               <span><b>10M+</b> installs</span>
               <span class="store-links">
-                <a class="store-link" href="https://play.google.com/store/apps/details?id=com.karimcastagnini.castlestorm&amp;hl=en" target="_blank" rel="noopener noreferrer" aria-label="Castle Raid on Google Play" title="Google Play">
+                <span class="store-platform">
                   <img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt=""><span>Google Play</span>
-                </a>
-                <a class="store-link" href="https://apps.apple.com/ai/app/castle-raid/id1560632350" target="_blank" rel="noopener noreferrer" aria-label="Castle Raid on the App Store" title="App Store">
+                </span>
+                <span class="store-platform">
                   <img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""><span>App Store</span>
-                </a>
+                </span>
               </span>
             </div>
           </div>

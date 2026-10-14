@@ -106,16 +106,6 @@ description: Senior Unity development for teams building, releasing, and support
         </div>
       </article>
 
-      <article class="experience-card experience-indie">
-        <header class="experience-header">
-          <div>
-            <h3>Independent</h3>
-            <p class="experience-role">Game Developer &nbsp;•&nbsp; 2011–2026</p>
-          </div>
-        </header>
-        <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
-        <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
-      </article>
 
       <article class="experience-card experience-white-room experience-article-card">
         <header class="experience-header">
@@ -156,62 +146,34 @@ description: Senior Unity development for teams building, releasing, and support
         <p class="experience-summary">At a mobile gaming startup, I developed and supported our major hit games from first prototype through full production, reaching millions of installs.</p>
       </article>
 
-      <article class="experience-card experience-ilogos experience-card-compact">
+      <article class="experience-card experience-earlier experience-article-card">
         <header class="experience-header">
-          <div class="company-logo company-logo-image">
-            <img src="{{ '/assets/portfolio/ilogos_logo.jpeg' | relative_url }}" alt="iLogos">
-          </div>
           <div>
-            <h3>Flash Developer</h3>
-            <p class="experience-role">iLogos &nbsp;•&nbsp; 2017–2018</p>
+            <h3><a class="experience-article-link" href="{{ '/earlier-game-development/' | relative_url }}" aria-label="Earlier Game Development — Five commercial roles">Earlier Game Development</a></h3>
+            <p class="experience-role">Flash development · Console UI · Social and mobile games · iGaming</p>
           </div>
+          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </header>
-        <div class="mini-project mini-project-stacked"><strong>Android 4X Game</strong><b>1M+ installs</b></div>
-        <p class="experience-summary">Live support and release management for an external studio.</p>
+        <ul class="career-highlights" aria-label="Five earlier commercial roles">
+          <li><strong>Flash Developer</strong><span>iLogos · 2017–2018</span></li>
+          <li><strong>UI Technical Artist</strong><span>Saber Interactive · 2016–2017</span></li>
+          <li><strong>Programmer</strong><span>Kosmos · 2015–2016</span></li>
+          <li><strong>Flash Developer</strong><span>i-Free · 2013–2014</span></li>
+          <li><strong>iGaming Developer</strong><span>2+ years</span></li>
+        </ul>
+        <p class="experience-summary">Earlier commercial work across live support, release management, console UI integration, and social, mobile, and iGaming products.</p>
       </article>
 
-      <article class="experience-card experience-saber experience-card-compact">
+      <article class="experience-card experience-indie experience-article-card">
         <header class="experience-header">
-          <div class="company-logo company-logo-image company-logo-dark">
-            <img src="{{ '/assets/portfolio/company-saber.png' | relative_url }}" alt="Saber Interactive">
-          </div>
           <div>
-            <h3>UI Technical Artist</h3>
-            <p class="experience-role">Saber Interactive &nbsp;•&nbsp; 2016–2017</p>
+            <h3><a class="experience-article-link" href="{{ '/independent-game-development/' | relative_url }}" aria-label="Independent — Independent Game Development">Independent</a></h3>
+            <p class="experience-role">Game Developer &nbsp;•&nbsp; 2011–2026</p>
           </div>
+          <span class="featured-work-arrow" aria-hidden="true">&rarr;</span>
         </header>
-        <div class="mini-project mini-project-stacked">
-          <strong>Armored Warfare</strong>
-          <small>PS4 port · My.Games / Obsidian</small>
-        </div>
-        <p class="experience-summary">Console UI integration with ActionScript and Scaleform.</p>
-      </article>
-
-      <article class="experience-card experience-kosmos experience-card-compact">
-        <header class="experience-header">
-          <div><h3>Programmer</h3><p class="experience-role">Kosmos &nbsp;•&nbsp; 2015–2016</p></div>
-        </header>
-        <ul class="mini-project-list">
-          <li><strong>Solitaire Social</strong><small>Facebook</small></li>
-          <li><strong>Solitaire Dash</strong><small>Mobile</small></li>
-        </ul>
-      </article>
-
-      <article class="experience-card experience-ifree experience-card-compact">
-        <header class="experience-header">
-          <div><h3>Flash Developer</h3><p class="experience-role">i-Free &nbsp;•&nbsp; 2013–2014</p></div>
-        </header>
-        <ul class="mini-project-list">
-          <li><strong>Evilibrium</strong><small>Mobile</small></li>
-          <li><strong>Puzzle games</strong><small>KakaoTalk</small></li>
-        </ul>
-      </article>
-
-      <article class="experience-card experience-igaming experience-card-compact">
-        <header class="experience-header">
-          <div><h3>iGaming</h3><p class="experience-role">Developer &nbsp;•&nbsp; 2+ years</p></div>
-        </header>
-        <p class="experience-summary">Development of multiple commercial iGaming products.</p>
+        <p class="indie-facts">Non-commercial games — Steam, Mobile, WebGL<br>20+ Game Jams · 18 Ludum Dare Compo</p>
+        <p class="experience-summary">As a part-time hobby, I regularly develop small non-commercial games and participate in Game Jams.</p>
       </article>
     </div>
   </div>
@@ -239,7 +201,7 @@ description: Senior Unity development for teams building, releasing, and support
     </p>
     <div class="contact-invitation">
       <p>Get in touch — let’s discuss the project, scope, timing, and budget.</p>
-      <p><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
+      <p class="contact-email"><a href="mailto:contact@denisk.io">contact@denisk.io</a></p>
     </div>
   </div>
 </section>
