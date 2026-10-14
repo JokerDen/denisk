@@ -19,6 +19,7 @@ article: true
       <div class="article-section">
         <h2>Small games across platforms</h2>
         <p>My independent games span desktop and Steam, mobile, and WebGL. This work brings together my interests in game development, engineering, and design at the scale of small personal projects.</p>
+        <p><a href="https://huindie.itch.io/" target="_blank" rel="noopener noreferrer">My games on itch.io</a></p>
       </div>
 
       <div class="article-section">
