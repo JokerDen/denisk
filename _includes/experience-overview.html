@@ -5,13 +5,16 @@
   <p class="experience-summary">For over 15 years, I've worked on a wide range of games, both independently and with studios. My experience spans everything from small creative experiments and early prototypes to successful releases and ongoing improvements.</p>
 
   <div class="experience-company">
+    <div class="company-logo company-logo-image company-logo-dark" title="DenisK Interactive">
+      <img src="{{ '/assets/logo.png' | relative_url }}" alt="DK">
+    </div>
     <div>
       <strong class="experience-company-name">Game Developer</strong>
       <p class="experience-role">2011–2026</p>
     </div>
     <a class="experience-arrow-link arrow-circle" href="{{ '/game-developer/' | relative_url }}" aria-label="Read My Work in Game Development"><span aria-hidden="true">&rarr;</span></a>
   </div>
-  {% include studio-logos.html %}
+  {% include studio-logos.html hide_dk=true %}
 
   <div class="project-grid project-grid-three" aria-label="Work across game development">
     <div class="project-item">
@@ -29,6 +32,13 @@
       </div>
     </div>
     <div class="project-item">
+      <span class="project-monogram" aria-hidden="true">S</span>
+      <div class="project-copy">
+        <strong>Social Games</strong>
+        <span>Facebook &amp; mobile</span>
+      </div>
+    </div>
+    <div class="project-item">
       <span class="project-monogram project-monogram-platform" aria-hidden="true"><img src="{{ '/assets/portfolio/playstation.svg' | relative_url }}" alt=""></span>
       <div class="project-copy">
         <strong>AAA</strong>
@@ -40,13 +50,6 @@
       <div class="project-copy">
         <strong>iGaming</strong>
         <span>Commercial products</span>
-      </div>
-    </div>
-    <div class="project-item">
-      <span class="project-monogram" aria-hidden="true">S</span>
-      <div class="project-copy">
-        <strong>Social games</strong>
-        <span>Facebook &amp; mobile</span>
       </div>
     </div>
   </div>

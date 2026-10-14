@@ -49,9 +49,8 @@ description: Senior Unity development for teams building, releasing, and support
       <a class="contact-cv-link" href="https://drive.google.com/file/d/1R72GYAeLcvy37-s4zTsqWBdSOEFc9MEM/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</a>
     </p>
     <div class="contact-invitation">
-      <div class="contact-work-status"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Open to work</span></div>
       <p>Get in touch — let’s discuss the project, scope, timing, and budget.</p>
-      <p class="contact-email"><a class="contact-email-link" href="mailto:contact@denisk.io"><span class="arrow-circle" aria-hidden="true">&rarr;</span><span>contact@denisk.io</span></a></p>
+      <p class="contact-email"><span class="availability-status"><span class="availability-dot" aria-hidden="true"></span>Open to work</span><a class="contact-email-link" href="mailto:contact@denisk.io"><span class="arrow-circle" aria-hidden="true">&rarr;</span><span>contact@denisk.io</span></a></p>
     </div>
   </div>
 </section>

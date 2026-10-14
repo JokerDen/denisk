@@ -1,7 +1,9 @@
-<div class="studio-logo-list" aria-label="Independent work and studios">
+<div class="studio-logo-list" aria-label="{% if include.hide_dk %}Studios{% else %}Independent work and studios{% endif %}">
+  {% unless include.hide_dk %}
   <div class="company-logo company-logo-image company-logo-dark" title="DenisK Interactive">
     <img src="{{ '/assets/logo.png' | relative_url }}" alt="DK">
   </div>
+  {% endunless %}
   <div class="company-logo company-logo-image company-logo-dark" title="Voodoo">
     <img src="{{ '/assets/portfolio/voodooio_logo.jpeg' | relative_url }}" alt="Voodoo">
   </div>
