@@ -490,9 +490,9 @@ li::marker {
 .portfolio-map {
   display: grid;
   grid-template-areas:
-    "overview"
     "voodoo"
-    "white";
+    "white"
+    "overview";
   grid-template-columns: minmax(0, 1fr);
   gap: var(--space-2);
   margin-top: var(--space-4);
@@ -1133,6 +1133,25 @@ li::marker {
   margin-top: var(--space-2);
 }
 
+.experience-availability {
+  margin-top: var(--space-2);
+  font-size: 16px;
+}
+
+.portfolio-map.article-experience-map.early-studios-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.early-studios-grid .experience-company-name {
+  margin: 0;
+  font-size: var(--font-metadata);
+  line-height: 1.4;
+}
+
+.early-studios-grid .project-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .studio-logo-list .company-logo {
   width: 32px;
   height: 32px;
@@ -1430,7 +1449,8 @@ strong {
   background: transparent;
 }
 
-.case-study-projects .project-icon-frame {
+.case-study-projects .project-icon-frame,
+.case-study-projects .project-icon-link {
   width: 128px;
   flex: 0 0 128px;
 }
@@ -1495,6 +1515,11 @@ strong {
   width: 16px;
   height: 16px;
   flex: 0 0 auto;
+}
+
+.case-study-projects .store-platform:hover {
+  color: var(--ink);
+  text-decoration: underline;
 }
 
 .case-study-role {
@@ -1679,9 +1704,9 @@ strong {
 
   .portfolio-map {
     grid-template-areas:
-      "overview"
       "voodoo"
-      "white";
+      "white"
+      "overview";
     grid-template-columns: minmax(0, 1fr);
     margin-top: var(--space-3);
   }
@@ -1706,6 +1731,10 @@ strong {
   }
 
   .compact-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .portfolio-map.article-experience-map.early-studios-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 }

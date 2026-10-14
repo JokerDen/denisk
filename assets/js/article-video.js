@@ -1,6 +1,7 @@
 document.querySelectorAll('.case-study-video').forEach((video) => {
+  const videoLabel = video.dataset.videoLabel || 'article video';
   const updateLabel = () => {
-    video.setAttribute('aria-label', `${video.paused ? 'Play' : 'Pause'} Crash Delivery prototype video`);
+    video.setAttribute('aria-label', `${video.paused ? 'Play' : 'Pause'} ${videoLabel}`);
   };
 
   const togglePlayback = () => {

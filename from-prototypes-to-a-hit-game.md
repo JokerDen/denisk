@@ -20,27 +20,27 @@ article: true
       <div class="case-study-projects" aria-label="Selected projects">
         <div class="project-grid">
           <div class="project-item">
-            <div class="project-icon-frame">
+            <a class="project-icon-link" href="https://play.google.com/store/apps/details?id=com.whiteroom.crazydelivery" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on Google Play">
               <img class="project-icon" src="{{ '/assets/portfolio/crash-delivery.png' | relative_url }}" alt="Crash Delivery app icon">
-            </div>
+            </a>
             <div class="project-copy">
               <strong>Crash Delivery</strong>
               <span><b>10M+</b> installs</span>
               <span class="store-links">
-                <span class="store-platform"><img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt=""><span>GooglePlay</span></span>
-                <span class="store-platform"><img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""><span>AppStore</span></span>
+                <a class="store-platform" href="https://play.google.com/store/apps/details?id=com.whiteroom.crazydelivery" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on Google Play" title="Google Play"><img src="{{ '/assets/portfolio/google-play.svg' | relative_url }}" alt=""><span>GooglePlay</span></a>
+                <a class="store-platform" href="https://apps.apple.com/us/app/crash-delivery-car-jumping/id1494327881" target="_blank" rel="noopener noreferrer" aria-label="Crash Delivery on the App Store" title="App Store"><img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""><span>AppStore</span></a>
               </span>
             </div>
           </div>
           <div class="project-item">
-            <div class="project-icon-frame">
+            <a class="project-icon-link" href="https://apps.apple.com/us/app/airplane-crash-madness-game/id1592988294" target="_blank" rel="noopener noreferrer" aria-label="Crash Madness on the App Store">
               <img class="project-icon" src="{{ '/assets/portfolio/crash-madness.jpg' | relative_url }}" alt="Crash Madness app icon">
-            </div>
+            </a>
             <div class="project-copy">
               <strong>Crash Madness</strong>
               <span><b>1M+</b> installs</span>
               <span class="store-links">
-                <span class="store-platform"><img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""><span>AppStore</span></span>
+                <a class="store-platform" href="https://apps.apple.com/us/app/airplane-crash-madness-game/id1592988294" target="_blank" rel="noopener noreferrer" aria-label="Crash Madness on the App Store" title="App Store"><img src="{{ '/assets/portfolio/app-store.svg' | relative_url }}" alt=""><span>AppStore</span></a>
               </span>
             </div>
           </div>
@@ -55,7 +55,7 @@ article: true
 
       <p>I handled the programming and built the first playable version in roughly one to two weeks, with most of my attention going into game feel: tuning the falling, impacts, destruction, and sense of constant progression. Despite its rough form — simple Unity Terrain, cube-based environments, and a basic upgrade economy — the first test already showed strong product metrics.</p>
 
-      <video class="case-study-video" width="1920" height="820" poster="{{ '/assets/video/article-video-loading.svg' | relative_url }}" autoplay loop muted playsinline preload="metadata" tabindex="0" role="button" aria-label="Pause Crash Delivery prototype video">
+      <video class="case-study-video" width="1920" height="820" poster="{{ '/assets/video/article-video-loading.svg' | relative_url }}" autoplay loop muted playsinline preload="metadata" tabindex="0" role="button" data-video-label="Crash Delivery prototype video" aria-label="Pause Crash Delivery prototype video">
         <source src="{{ '/assets/video/wrg-delivery-prototype.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support embedded video.
       </video>

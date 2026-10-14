@@ -21,9 +21,9 @@ description: Senior Unity development for teams building, releasing, and support
     </div>
 
     <div class="portfolio-map" aria-label="Work experience and selected projects">
-      {% include experience-overview.html %}
       {% include experience-voodoo.html %}
       {% include experience-fun-to-mass.html %}
+      {% include experience-overview.html %}
     </div>
   </div>
 </section>
