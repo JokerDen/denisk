@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Scaling Games for Growth
-description: At GameOps Live Studios, I contributed to the growth and long-term success of established mobile games by developing new features, improving player experiences, and ensuring smooth, reliable releases.
+description: Growing mobile games through new features, LiveOps experiments, and reliable releases.
 permalink: /voodoo/
 article: true
 portfolio_videos: true

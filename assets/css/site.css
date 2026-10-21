@@ -1139,7 +1139,7 @@ li::marker {
 }
 
 .portfolio-map.article-experience-map.early-studios-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .early-studios-grid .experience-company-name {
@@ -1731,10 +1731,6 @@ strong {
   }
 
   .compact-list {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .portfolio-map.article-experience-map.early-studios-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 }
