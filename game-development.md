@@ -1,7 +1,7 @@
 ---
 layout: default
 title: My Work in Games
-description: Over 15 years making games with studios and independently, from early commercial projects to mobile releases and game jams.
+description: For over 15 years, I've worked on a wide range of games, both independently and with studios. My experience spans everything from small creative experiments and early prototypes to successful releases and ongoing improvements.
 permalink: /game-developer/
 article: true
 portfolio_videos: true
@@ -11,9 +11,15 @@ portfolio_videos: true
   <div class="case-study-inner">
     <header class="case-study-header">
       <h1>My Work in Games</h1>
-      <p class="case-study-description">Over 15 years making games with studios and independently, from early commercial projects to mobile releases and game jams.</p>
-      <p class="case-study-subtitle">Game Developer · 2011–2026</p>
-      {% include studio-logos.html %}
+      <p class="case-study-description">{{ page.description | escape }}</p>
+      <div class="case-study-experience">
+        <a class="company-logo company-logo-image company-logo-dark case-study-company-logo" href="{{ '/' | relative_url }}" aria-label="DenisK Interactive portfolio">
+          <img src="{{ '/assets/logo.png' | relative_url }}" alt="DenisK Interactive">
+        </a>
+        <p class="case-study-role">Game Developer</p>
+        <p class="case-study-subtitle">DenisK Interactive <span aria-hidden="true">•</span> 2011–2026</p>
+      </div>
+      {% include studio-logos.html hide_dk=true %}
     </header>
 
     <div class="case-study-body">

@@ -10,6 +10,7 @@ article: true
   <div class="case-study-inner">
     <header class="case-study-header">
       <h1>From Prototypes to a Hit Game</h1>
+      <p class="case-study-description">{{ page.description | escape }}</p>
       <div class="case-study-experience">
         <a class="company-logo company-logo-image company-logo-full case-study-company-logo" href="http://fun-to-mass.com/" target="_blank" rel="noopener noreferrer" aria-label="Fun-To-Mass website">
           <img src="{{ '/assets/portfolio/company-funtomass.png' | relative_url }}" alt="Fun-To-Mass">

@@ -4,12 +4,14 @@ title: Scaling Games for Growth
 description: At GameOps Live Studios, I contributed to the growth and long-term success of established mobile games by developing new features, improving player experiences, and ensuring smooth, reliable releases.
 permalink: /voodoo/
 article: true
+portfolio_videos: true
 ---
 
 <article class="case-study">
   <div class="case-study-inner">
     <header class="case-study-header">
       <h1>Scaling Games for Growth</h1>
+      <p class="case-study-description">{{ page.description | escape }}</p>
       <div class="case-study-experience">
         <a class="company-logo company-logo-image company-logo-dark case-study-company-logo" href="https://www.voodoo.io/" target="_blank" rel="noopener noreferrer" aria-label="Voodoo website">
           <img src="{{ '/assets/portfolio/voodooio_logo.jpeg' | relative_url }}" alt="Voodoo">
@@ -95,19 +97,32 @@ article: true
     </header>
 
     <div class="case-study-body">
-      <p>In 2022, I joined Voodoo as a contractor and soon became a full-time employee. I worked in a LiveOps team within GameOps Live Studios, developing and supporting released games through new features, product experiments, and regular updates aimed at growing revenue.</p>
+      <p>In 2022, I joined Voodoo’s GameOps Live Studios as a contractor and soon became a full-time employee. Our LiveOps team worked on released mobile games, adding features, running experiments, and supporting regular updates to grow revenue.</p>
 
-      <p>Our first project was Uboat Attack, a first-person submarine shooter with realistic graphics. We took it from a relatively raw MVP to a polished game, expanding its LiveOps features and strengthening the architecture with Zenject, scalable patterns, and in-house frameworks.</p>
+      <p>Our projects included Uboat Attack, a first-person submarine shooter with realistic graphics; Walkers Attack, a zombie action RPG; and Sniper Siege, a mission-based sniper shooter. The work covered both expanding early products and maintaining established games.</p>
 
-      <p>I contributed to a range of meta and monetization features, including leaderboards, a wheel of fortune, and other monetization mechanics. One of the larger features I worked on was Fleet, an asynchronous multiplayer battle mode with deck-building elements.</p>
+      <p>The team consisted mainly of senior professionals. We took Uboat Attack from a raw MVP to a polished game, then expanded to more projects as the team grew, eventually splitting development into two streams.</p>
 
-      <p>The second project was Walkers Attack, a zombie action RPG combining automatic shooting, exploration, and character upgrades. It was already a strong game, and we worked on expanding it while making the code cleaner and easier to extend. I helped implement Base Attacks, an asynchronous multiplayer mode where players could build their own bases and invade other players’ bases, working closely with the backend team on the integration.</p>
+      <video class="case-study-video" width="1920" height="820" poster="{{ '/assets/video/voodoo-all.jpg' | relative_url }}" autoplay loop muted playsinline preload="metadata" tabindex="0" role="button" data-video-label="Voodoo games feature showcase" aria-label="Pause Voodoo games feature showcase">
+        <source src="{{ '/assets/video/voodoo-all.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support embedded video.
+      </video>
 
-      <p>As the team grew and took on more projects, we split development into two streams. I was responsible for organising the second, estimating work, contributing to pre-production and planning, and reviewing code. The team consisted mainly of senior professionals, with substantial individual responsibility for delivery. Alongside development, I managed production releases and later set up a Jenkins build machine to support our CI pipeline.</p>
+      <p>The largest feature I worked on for Uboat Attack was Fleet, an asynchronous multiplayer battle mode with deck-building elements. I also took part in implementing Base Attacks for Walkers Attack, including asynchronous raids on player-built bases, complex upgrade systems, and backend integration. Other feature work included the wheel of fortune in Walkers Attack and Sniper Siege.</p>
 
-      <p>Later, I worked on Sniper Siege, a sniper shooter built around missions to eliminate targets and defend allies. It had the highest revenue among our projects and a large, complex codebase. My work combined making the code more maintainable with implementing a high volume of A/B tests.</p>
+      <p>UI feature development was a substantial part of my work across all projects, particularly Uboat Attack. Alongside feature development, I refactored existing code and improved the architecture using Zenject, scalable patterns, and in-house frameworks, making the projects easier to maintain and extend.</p>
 
-      <p>For games already performing well, A/B testing was the foundation for further development. New features needed to be evaluated against what was already working, with close attention to product metrics and the experience of existing players. A change intended to increase revenue could also affect how people played or whether they returned, so understanding those effects was part of the work before making it a permanent addition.</p>
+      <p>I was responsible for organising the second development stream, estimating work, contributing to pre-production and planning, and reviewing code. I also managed production releases and later set up a Jenkins build machine for CI.</p>
+
+      <p>For games already performing well, A/B testing guided further development, with a particularly high volume of experiments on Sniper Siege. New features needed to be checked against product metrics and their effect on existing players. We monitored how changes affected revenue, progression, and retention before rolling them out more broadly.</p>
+
+      <p>This built on my previous experience, combining hands-on development, product iteration, and responsibility for releases.</p>
+
+      <div class="portfolio-map article-experience-map" aria-label="Fun-To-Mass experience">
+        {% include experience-fun-to-mass.html %}
+      </div>
     </div>
   </div>
 </article>
+
+<script src="{{ '/assets/js/article-video.js' | relative_url }}" defer></script>
